@@ -63,8 +63,9 @@ def read_entries(dump_file):
 
 
 
-# Class representing a german wiktionary entry
 class WikEntry:
+    """ Class representing a german wiktionary entry """
+
     def __init__(self, title, text, pos):
         self.title = title
         self.text = text
@@ -75,9 +76,7 @@ class WikEntry:
 
 
     def __str__(self):
-        return self.title + ' ' + self.text
-
-
+        return self.title
 
 
     def audio(self, language='en'):
@@ -87,8 +86,10 @@ class WikEntry:
             return []
         return re.findall("\{\{Audio\|(.+?)(?:\||\}\})", audio_line)
 
+
     def translations(self, language='en'):
         return re.findall("\{\{Ü\|%s\|(.+?)\}\}" % language, self.text)
+
 
     def get_template_fields(self, template_name):
         r = re.compile("\{\{%s(.*?)\}\}" % template_name,
@@ -103,6 +104,7 @@ class WikEntry:
             return field_dict
         else:
             return None
+
 
     def deutsch_verb_uebersicht(self):
         fields = self.get_template_fields('Deutsch Verb Übersicht')
