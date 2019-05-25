@@ -3,7 +3,7 @@ import subprocess
 
 db_file = './db/deutsch.sqlite'
 
-# Get wiktionary dump
+# Get wiktionary dump if needed
 exists = os.path.isfile('dumps/dewiktionary-latest-pages-articles.xml')
 if not exists:
     print("Downloading wiktionary entries... (May take several minutes)")
@@ -18,9 +18,8 @@ subprocess.run(
     ["bash", "./top/create_top_table.sh", db_file])
 
 # Populate database
-# subprocess.run(
-#     ["python", "./bin/dump_parse.py", "--force", "--dump", "dumps/dewiktionary-latest-pages-articles.xml", "--db", db_file])
-
+subprocess.run(
+    ["python", "./bin/dump_parse.py", "--force", "--dump", "dumps/dewiktionary-latest-pages-articles.xml", "--db", db_file])
 
 # Create csvs for export
 subprocess.run(

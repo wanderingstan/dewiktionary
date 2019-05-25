@@ -3,7 +3,7 @@ DROP TABLE top
 CREATE TABLE top (word TEXT PRIMARY KEY, freq INT)
 ;
 .mode csv
-.import "./top-words/top-words-lemmetized.csv" "top"
+.import "./top/top-words-lemmetized.csv" "top"
 
 
 -- Add rank column and populate
