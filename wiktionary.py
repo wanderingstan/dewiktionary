@@ -79,7 +79,8 @@ class WikEntry:
         return self.title
 
 
-    def audio(self, language='en'):
+    def pronunciations(self, language='en'):
+        """ Get audio files """
         try:
             audio_line = re.search("\{\{Hörbeispiele\}\}.*", self.text).group()
         except AttributeError:
@@ -89,6 +90,16 @@ class WikEntry:
 
     def translations(self, language='en'):
         return re.findall("\{\{Ü\|%s\|(.+?)\}\}" % language, self.text)
+
+
+    def beispiele(self):
+        """ Get example sentences """
+        try:
+            section = re.search("\{\{Beispiele\}\}.*?(?:\n==|\n\{\{|\n\n)", self.text,
+                       re.MULTILINE | re.DOTALL).group()
+        except AttributeError:
+            return []
+        return re.findall("\[\d+] ?(.*?)(?:&lt;ref|\n)", section)
 
 
     def get_template_fields(self, template_name):

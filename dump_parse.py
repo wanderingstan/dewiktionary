@@ -61,11 +61,11 @@ german_word_fields = [
 ]
 
 # Get dump files at : https://dumps.wikimedia.org/dewiktionary/latest/
-dump_file='dewiktionary-latest-pages-articles_100000.xml'
-# dump_file = 'dewiktionary-latest-pages-articles.xml'
-# dump_file = 'test.xml'
+dump_file='dumps/dewiktionary-latest-pages-articles_100000.xml'
+# dump_file = 'dumps/dewiktionary-latest-pages-articles.xml'
+# dump_file = 'dumps/test.xml'
 
-database_filename='deutsch.sqlite'
+database_filename='db/deutsch.sqlite'
 
 
 
@@ -100,7 +100,9 @@ for entry in wiktionary.read_entries(dump_file):
     print(entry.title, entry.pos)
 
     # print(entry.translations())
-    print(entry.audio())
+    print(entry.pronunciations())
+
+    # print(entry.beispiele())
 
     #
     # Verbs
