@@ -77,7 +77,7 @@ if args.force:
     c.execute('''DROP TABLE IF EXISTS verbs''')
 german_verb_fields_sql_declarations = ",".join(
     map('"{0}" TEXT'.format, german_verb_fields)) # Put in SQL form, with text data type
-c.execute('''CREATE TABLE IF NOT EXISTS verbs ("Infinitiv" TEXT, {})'''.format(
+c.execute('''CREATE TABLE IF NOT EXISTS verbs ("Infinitiv" TEXT COLLATE NOCASE, {})'''.format(
     german_verb_fields_sql_declarations))
 c.execute('''CREATE INDEX verbs_index ON verbs("Infinitiv")''')
 
@@ -86,7 +86,7 @@ if args.force:
     c.execute('''DROP TABLE IF EXISTS nouns''')
 german_noun_fields_sql_declarations = ",".join(
     map('"{0}" TEXT'.format, german_noun_fields))  # Put in SQL form, with text data type
-c.execute('''CREATE TABLE IF NOT EXISTS nouns ("Nominativ" TEXT, {})'''.format(
+c.execute('''CREATE TABLE IF NOT EXISTS nouns ("Nominativ" TEXT COLLATE NOCASE, {})'''.format(
     german_noun_fields_sql_declarations))
 c.execute('''CREATE INDEX nouns_index ON nouns("Nominativ")''')
 
@@ -95,7 +95,7 @@ if args.force:
     c.execute('''DROP TABLE IF EXISTS words''')
 german_word_fields_sql_declarations = ",".join(
     map('"{0}" TEXT'.format, german_word_fields))  # Put in SQL form, with text data type
-c.execute('''CREATE TABLE IF NOT EXISTS words ("Wort" TEXT, {})'''.format(
+c.execute('''CREATE TABLE IF NOT EXISTS words ("Wort" TEXT COLLATE NOCASE, {})'''.format(
     german_word_fields_sql_declarations))
 c.execute('''CREATE INDEX word_index ON words("Wort")''')
 
@@ -187,4 +187,4 @@ for entry in wiktionary.read_entries(args.dump):
 conn.commit()
 conn.close()
 
-print("")
+print("\033[K")

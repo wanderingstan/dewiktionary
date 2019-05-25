@@ -11,8 +11,8 @@ rank,freq,Infinitiv,Unreg,Trans,"Präsens_ich","Präsens_du","Präsens_er, sie, 
 36,388020,sagen,"","",sage,sagst,sagt,sagte,gesagt,sagte,sag,sagt,haben
 37,384113,sehen,"","",sehe,siehst,sieht,sah,gesehen,"sähe",siehe,seht,haben
 39,376830,machen,"","",mache,machst,macht,machte,gemacht,machte,mache,macht,haben
-43,330438,tun,"","",tu,tust,tut,tat,getan,"täte",tu,tut,haben
 43,330438,tun,"",X,tue,tust,tut,tat,getan,"täte",tue,tut,haben
+43,330438,tun,"","",tu,tust,tut,tat,getan,"täte",tu,tut,haben
 44,317788,kommen,"","",komme,kommst,kommt,kam,gekommen,"käme",komm,kommt,sein
 45,280421,geben,"","",gebe,gibst,gibt,gab,gegeben,"gäbe",gib,gebt,haben
 59,217839,wissen,"","","weiß","weißt","weiß",wusste,gewusst,"wüsste",wisse,wisset,haben
@@ -54,8 +54,8 @@ rank,freq,Infinitiv,Unreg,Trans,"Präsens_ich","Präsens_du","Präsens_er, sie, 
 194,49877,essen,"","",esse,isst,isst,"aß",gegessen,"äße",iss,esst,haben
 198,49016,gleichen,"","",gleiche,gleichst,gleicht,glich,geglichen,gliche,gleiche,gleicht,haben
 204,46564,laufen,"","",laufe,"läufst","läuft",lief,gelaufen,liefe,lauf,lauft,sein
-209,45882,"heißen","","","heiße","heißt","heißt","heißte","geheißt","heißte","heiß","heißt",haben
 209,45882,"heißen","","","heiße","heißt","heißt","hieß","geheißen","hieße","heiß","heißt",haben
+209,45882,"heißen","","","heiße","heißt","heißt","heißte","geheißt","heißte","heiß","heißt",haben
 210,45657,spielen,"","",spiele,spielst,spielt,spielte,gespielt,spielte,spiel,spielt,haben
 212,45252,stimmen,"","",stimme,stimmst,stimmt,stimmte,gestimmt,stimmte,stimm,stimmt,haben
 215,44547,verlieren,"","",verliere,verlierst,verliert,verlor,verloren,"verlöre",verliere,verliert,haben
@@ -65,8 +65,8 @@ rank,freq,Infinitiv,Unreg,Trans,"Präsens_ich","Präsens_du","Präsens_er, sie, 
 229,41498,"fühlen","","","fühle","fühlst","fühlt","fühlte","gefühlt","fühlte","fühl","fühlt",haben
 230,41468,holen,"","",hole,holst,holt,holte,geholt,holte,hole,holt,haben
 231,40933,treffen,"","",treffe,triffst,trifft,traf,getroffen,"träfe",triff,trefft,haben
-233,40506,schaffen,"","",schaffe,schaffst,schafft,schaffte,geschafft,schaffte,schaffe,schafft,haben
 233,40506,schaffen,"","",schaffe,schaffst,schafft,schuf,geschaffen,"schüfe",schaffe,schafft,haben
+233,40506,schaffen,"","",schaffe,schaffst,schafft,schaffte,geschafft,schaffte,schaffe,schafft,haben
 235,39891,liegen,"","",liege,liegst,liegt,lag,gelegen,"läge",lieg,liegt,haben
 242,37596,zeigen,"",X,zeige,zeigst,zeigt,zeigte,gezeigt,zeigte,zeige,zeigt,haben
 244,37295,erinnern,"",X,erinnere,erinnerst,erinnert,erinnerte,erinnert,erinnerte,erinnere,erinnert,haben
@@ -175,8 +175,8 @@ rank,freq,Infinitiv,Unreg,Trans,"Präsens_ich","Präsens_du","Präsens_er, sie, 
 576,13183,behalten,"","",behalte,"behältst","behält",behielt,behalten,behielte,behalte,behaltet,haben
 578,13175,besorgen,"","",besorge,besorgst,besorgt,besorgte,besorgt,besorgte,besorge,besorgt,haben
 579,13137,erkennen,"","",erkenne,erkennst,erkennt,erkannte,erkannt,erkennte,erkenn,erkennt,haben
-585,12749,"hängen","","","hänge","hängst","hängt",hing,gehangen,hinge,"hänge","hängt",haben
 585,12749,"hängen","","","hänge","hängst","hängt","hängte","gehängt","hängte","hänge","hängt",haben
+585,12749,"hängen","","","hänge","hängst","hängt",hing,gehangen,hinge,"hänge","hängt",haben
 588,12726,fehlen,"","",fehle,fehlst,fehlt,fehlte,gefehlt,fehlte,fehle,fehlt,haben
 592,12523,"gehören","","","gehöre","gehörst","gehört","gehörte","gehört","gehörte","gehör","gehört",haben
 593,12492,melden,"","",melde,meldest,meldet,meldete,gemeldet,meldete,melde,meldet,haben
@@ -298,8 +298,8 @@ rank,freq,Infinitiv,Unreg,Trans,"Präsens_ich","Präsens_du","Präsens_er, sie, 
 995,6747,entdecken,"","",entdecke,entdeckst,entdeckt,entdeckte,entdeckt,entdeckte,entdecke,entdeckt,haben
 996,6746,"wüten","","","wüte","wütest","wütet","wütete","gewütet","wütete","wüte","wütet",haben
 999,6721,ergeben,"","",ergebe,ergibst,ergibt,ergab,ergeben,"ergäbe",ergib,ergebt,haben
-1001,6699,wachsen,"","",wachse,wachst,wachst,wachste,gewachst,wachste,wachse,wachst,haben
 1001,6699,wachsen,"","",wachse,"wächst","wächst",wuchs,gewachsen,"wüchse",wachse,wachst,sein
+1001,6699,wachsen,"","",wachse,wachst,wachst,wachste,gewachst,wachste,wachse,wachst,haben
 1002,6677,mitbringen,"","","bringe mit","bringst mit","bringt mit","brachte mit",mitgebracht,"brächte mit","bringe mit","bringt mit",haben
 1003,6666,ankommen,"","","komme an","kommst an","kommt an","kam an",angekommen,"käme an","komm an","kommt an",sein
 1008,6644,schlampen,"","",schlampe,schlampst,schlampt,schlampte,geschlampt,schlampte,schlampe,schlampt,haben
@@ -320,8 +320,8 @@ rank,freq,Infinitiv,Unreg,Trans,"Präsens_ich","Präsens_du","Präsens_er, sie, 
 1070,6262,geraten,"","",gerate,"gerätst","gerät",geriet,geraten,geriete,gerate,geratet,sein
 1072,6243,befinden,"","",befinde,befindest,befindet,befand,befunden,"befände",befinde,befindet,haben
 1074,6243,unterscheiden,"",X,unterscheide,unterscheidest,unterscheidet,unterschied,unterschieden,unterschiede,unterscheide,unterscheidet,haben
-1075,6224,unternehmen,"","","nehme unter","nimmst unter","nimmt unter","nahm unter",untergenommen,"nähme unter","nimm unter","nehmt unter",haben
 1075,6224,unternehmen,"","",unternehme,unternimmst,unternimmt,unternahm,unternommen,"unternähme",unternimm,unternehmt,haben
+1075,6224,unternehmen,"","","nehme unter","nimmst unter","nimmt unter","nahm unter",untergenommen,"nähme unter","nimm unter","nehmt unter",haben
 1082,6164,"stöhnen","","","stöhne","stöhnst","stöhnt","stöhnte","gestöhnt","stöhnte","stöhne","stöhnt",haben
 1085,6143,schmecken,"","",schmecke,schmeckst,schmeckt,schmeckte,geschmeckt,schmeckte,schmecke,schmeckt,haben
 1089,6128,abholen,"","","hole ab","holst ab","holt ab","holte ab",abgeholt,"holte ab","hole ab","holt ab",haben
@@ -363,8 +363,8 @@ rank,freq,Infinitiv,Unreg,Trans,"Präsens_ich","Präsens_du","Präsens_er, sie, 
 1204,5463,benehmen,"","",benehme,benimmst,benimmt,benahm,benommen,"benähme",benimm,benehmt,haben
 1208,5451,"zurückkehren","","","kehre zurück","kehrst zurück","kehrt zurück","kehrte zurück","zurückgekehrt","kehrte zurück","kehre zurück","kehrt zurück",sein
 1209,5440,akzeptieren,"","",akzeptiere,akzeptierst,akzeptiert,akzeptierte,akzeptiert,akzeptierte,akzeptier,akzeptiert,haben
-1210,5439,wiederholen,"","","hole wieder","holst wieder","holt wieder","holte wieder",wiedergeholt,"holte wieder","hol wieder","holt wieder",haben
 1210,5439,wiederholen,"","",wiederhole,wiederholst,wiederholt,wiederholte,wiederholt,wiederholte,wiederhol,wiederholt,haben
+1210,5439,wiederholen,"","","hole wieder","holst wieder","holt wieder","holte wieder",wiedergeholt,"holte wieder","hol wieder","holt wieder",haben
 1211,5433,aufwachen,"","","wache auf","wachst auf","wacht auf","wachte auf",aufgewacht,"wachte auf","wach auf","wacht auf",sein
 1213,5432,gelten,"","",gelte,giltst,gilt,galt,gegolten,"gälte",gilt,geltet,haben
 1216,5416,kontrollieren,"","",kontrolliere,kontrollierst,kontrolliert,kontrollierte,kontrolliert,kontrollierte,kontrolliere,kontrolliert,haben
@@ -381,8 +381,8 @@ rank,freq,Infinitiv,Unreg,Trans,"Präsens_ich","Präsens_du","Präsens_er, sie, 
 1262,5229,schmerzen,"","",schmerze,schmerzt,schmerzt,schmerzte,geschmerzt,schmerzte,schmerz,schmerzt,haben
 1263,5227,abendessen,"","","","","","",abendgegessen,"","","",haben
 1264,5225,verbieten,"","",verbiete,verbietest,verbietet,verbot,verboten,"verböte",verbiet,verbietet,haben
-1271,5188,starten,"","",starte,startest,startet,startete,gestartet,startete,starte,startet,sein
 1271,5188,starten,"",X,starte,startest,startet,startete,gestartet,startete,starte,startet,haben
+1271,5188,starten,"","",starte,startest,startet,startete,gestartet,startete,starte,startet,sein
 1274,5140,"entführen","","","entführe","entführst","entführt","entführte","entführt","entführte","entführe","entführt",haben
 1275,5140,fernsehen,"","","sehe fern","siehst fern","sieht fern","sah fern",ferngesehen,"sähe fern","sieh fern","seht fern",haben
 1278,5130,streiten,"","",streite,streitest,streitet,stritt,gestritten,stritte,streite,streitet,haben
@@ -392,29 +392,29 @@ rank,freq,Infinitiv,Unreg,Trans,"Präsens_ich","Präsens_du","Präsens_er, sie, 
 1290,5075,beeindrucken,"","",beeindrucke,beeindruckst,beeindruckt,beeindruckte,beeindruckt,beeindruckte,beeindrucke,beeindruckt,haben
 1291,5070,"enttäuschen","","","enttäusche","enttäuschst","enttäuscht","enttäuschte","enttäuscht","enttäuschte","enttäusche","enttäuscht",haben
 1294,5039,erschrecken,"","",erschrecke,erschreckst,erschreckt,erschreckte,erschreckt,erschreckte,erschrecke,erschreckt,haben
-1294,5039,erschrecken,"","",erschrecke,erschrickst,erschrickt,erschrak,erschrocken,"erschräke",erschrick,erschreckt,haben
 1294,5039,erschrecken,"","",erschrecke,erschrickst,erschrickt,erschrak,erschrocken,"erschräke",erschrick,erschreckt,sein
+1294,5039,erschrecken,"","",erschrecke,erschrickst,erschrickt,erschrak,erschrocken,"erschräke",erschrick,erschreckt,haben
 1296,5035,stechen,"","",steche,stichst,sticht,stach,gestochen,"stäche",stich,stecht,haben
-1301,5021,unterhalten,"","","halte unter","hältst unter","hält unter","hielt unter",untergehalten,"hielte unter","halt unter","haltet unter",haben
 1301,5021,unterhalten,"","",unterhalte,"unterhältst","unterhält",unterhielt,unterhalten,unterhielte,unterhalte,unterhaltet,haben
+1301,5021,unterhalten,"","","halte unter","hältst unter","hält unter","hielt unter",untergehalten,"hielte unter","halt unter","haltet unter",haben
 1311,4977,leiten,"","",leite,leitest,leitet,leitete,geleitet,leitete,leite,leitet,haben
 1312,4976,greifen,"","",greife,greifst,greift,griff,gegriffen,griffe,greife,greift,haben
 1317,4943,wachen,"","",wache,wachst,wacht,wachte,gewacht,wachte,wache,wacht,haben
 1320,4921,"berühren","","","berühre","berührst","berührt","berührte","berührt","berührte","berühr","berührt",haben
 1323,4904,reparieren,"","",repariere,reparierst,repariert,reparierte,repariert,reparierte,repariere,repariert,haben
 1329,4867,probieren,"","",probiere,probierst,probiert,probierte,probiert,probierte,probiere,probiert,haben
-1343,4800,winden,"","","","",windet,windete,gewindet,windete,"","",haben
 1343,4800,winden,"","",winde,windest,windet,wand,gewunden,"wände",winde,windet,haben
+1343,4800,winden,"","","","",windet,windete,gewindet,windete,"","",haben
 1344,4798,ruinieren,"","",ruiniere,ruinierst,ruiniert,ruinierte,ruiniert,ruinierte,ruinier,ruiniert,haben
 1346,4785,stoppen,"","",stoppe,stoppst,stoppt,stoppte,gestoppt,stoppte,stopp,stoppt,haben
-1349,4774,umgehen,"","","gehe um","gehest um","gehet um","ging um",umgegangen,"ginge um","gehe um","gehet um",sein
 1349,4774,umgehen,"","",umgehe,umgehest,umgehet,umging,umgangen,umginge,umgehe,umgehet,haben
+1349,4774,umgehen,"","","gehe um","gehest um","gehet um","ging um",umgegangen,"ginge um","gehe um","gehet um",sein
 1363,4725,vernichten,"","",vernichte,vernichtest,vernichtet,vernichtete,vernichtet,vernichtete,vernichte,vernichtet,haben
 1370,4677,beibringen,"","","bringe bei","bringst bei","bringt bei","brachte bei",beigebracht,"brächte bei","bring bei","bringt bei",haben
 1372,4672,reiten,"","",reite,reitest,reitet,ritt,geritten,ritte,reit,reitet,sein
 1375,4666,riskieren,"","",riskiere,riskierst,riskiert,riskierte,riskiert,riskierte,riskiere,riskiert,haben
-1376,4665,"übersetzen","","","setze über","setzt über","setzt über","setzte über","übergesetzt","setzte über","setz über","setzt über",haben
 1376,4665,"übersetzen","","","übersetze","übersetzt","übersetzt","übersetzte","übersetzt","übersetzte","übersetz","übersetzt",haben
+1376,4665,"übersetzen","","","setze über","setzt über","setzt über","setzte über","übergesetzt","setzte über","setz über","setzt über",haben
 1378,4658,leeren,"","",leere,leerst,leert,leerte,geleert,leerte,leere,leert,haben
 1379,4658,knien,"","",knie,kniest,kniet,kniete,gekniet,kniete,knie,kniet,haben
 1384,4631,"verdächtigen","","","verdächtige","verdächtigst","verdächtigt","verdächtigte","verdächtigt","verdächtigte","verdächtige","verdächtigt",haben
@@ -423,8 +423,8 @@ rank,freq,Infinitiv,Unreg,Trans,"Präsens_ich","Präsens_du","Präsens_er, sie, 
 1398,4595,beantworten,"","",beantworte,beantwortest,beantwortet,beantwortete,beantwortet,beantwortete,beantworte,beantwortet,haben
 1400,4591,anstellen,"","","stelle an","stellst an","stellt an","stellte an",angestellt,"stellte an","stell an","stellt an",haben
 1403,4583,besprechen,"","",bespreche,besprichst,bespricht,besprach,besprochen,"bespräche",besprich,besprecht,haben
-1408,4573,"unterstützen","","","stütze unter","stützt unter","stützt unter","stützte unter","untergestützt","stützte unter","stütz unter","stützt unter",haben
 1408,4573,"unterstützen","","","unterstütze","unterstützt","unterstützt","unterstützte","unterstützt","unterstützte","unterstütze","unterstützt",haben
+1408,4573,"unterstützen","","","stütze unter","stützt unter","stützt unter","stützte unter","untergestützt","stützte unter","stütz unter","stützt unter",haben
 1410,4561,wechseln,"","",wechsle,wechselst,wechselt,wechselte,gewechselt,wechselte,wechsele,wechselt,haben
 1416,4533,anhalten,"","","halte an","hältst an","hält an","hielt an",angehalten,"hielte an","halt an","haltet an",haben
 1419,4520,studieren,"","",studiere,studierst,studiert,studierte,studiert,studierte,studier,studiert,haben
@@ -502,8 +502,8 @@ rank,freq,Infinitiv,Unreg,Trans,"Präsens_ich","Präsens_du","Präsens_er, sie, 
 1678,3633,"stürzen","","","stürze","stürzt","stürzt","stürzte","gestürzt","stürzte","stürze","stürzt",sein
 1679,3630,einsperren,"","","sperre ein","sperrst ein","sperrt ein","sperrte ein",eingesperrt,"sperrte ein","sperr ein","sperrt ein",haben
 1681,3626,pressen,"","",presse,presst,presst,presste,gepresst,presste,press,presst,haben
-1683,3621,"übergeben","","","gebe über","gibst über","gibt über","gab über","übergegeben","gäbe über","gib über","gebt über",haben
 1683,3621,"übergeben","","","übergebe","übergibst","übergibt","übergab","übergeben","übergäbe","übergib","übergebt",haben
+1683,3621,"übergeben","","","gebe über","gibst über","gibt über","gab über","übergegeben","gäbe über","gib über","gebt über",haben
 1684,3615,"stoßen","","","stoße","stößt","stößt","stieß","gestoßen","stieße","stoße","stoßt",haben
 1694,3581,verschwenden,"","",verschwende,verschwendest,verschwendet,verschwendete,verschwendet,verschwendete,verschwende,verschwendet,haben
 1701,3564,identifizieren,"","",identifiziere,identifizierst,identifiziert,identifizierte,identifiziert,identifizierte,identifiziere,identifiziert,haben
@@ -521,8 +521,8 @@ rank,freq,Infinitiv,Unreg,Trans,"Präsens_ich","Präsens_du","Präsens_er, sie, 
 1739,3465,begraben,"","",begrabe,"begräbst","begräbt",begrub,begraben,"begrübe",begrab,begrabt,haben
 1741,3461,"benötigen","","","benötige","benötigst","benötigt","benötigte","benötigt","benötigte","benötige","benötigt",haben
 1743,3456,durchmachen,"","","mache durch","machst durch","macht durch","machte durch",durchgemacht,"machte durch","mach durch","macht durch",haben
-1744,3450,"überlassen","","","lasse über","lässt über","lässt über","ließ über","übergelassen","ließe über","lass über","lasst über",haben
 1744,3450,"überlassen","","","überlasse","überlässt","überlässt","überließ","überlassen","überließe","überlasse","überlasst",haben
+1744,3450,"überlassen","","","lasse über","lässt über","lässt über","ließ über","übergelassen","ließe über","lass über","lasst über",haben
 1745,3448,trotzen,"","",trotze,trotzt,trotzt,trotzte,getrotzt,trotzte,trotze,trotzt,haben
 1750,3438,"rühren","","","rühre","rührst","rührt","rührte","gerührt","rührte","rühre","rührt",haben
 1756,3423,opfern,"","",opfere,opferst,opfert,opferte,geopfert,opferte,opfere,opfert,haben
@@ -563,8 +563,8 @@ rank,freq,Infinitiv,Unreg,Trans,"Präsens_ich","Präsens_du","Präsens_er, sie, 
 1879,3141,auftreten,"","","trete auf","trittst auf","tritt auf","trat auf",aufgetreten,"träte auf","tritt auf","tretet auf",sein
 1881,3140,empfangen,"","",empfange,"empfängst","empfängt",empfing,empfangen,empfinge,empfange,empfangt,haben
 1882,3137,"äußern","","","äußere","äußerst","äußert","äußerte","geäußert","äußerte","äußere","äußert",haben
-1883,3136,"löschen","","","lösche",lischt,lischt,losch,geloschen,"lösche",lisch,"löscht",sein
 1883,3136,"löschen","","","lösche","löschst","löscht","löschte","gelöscht","löschte","lösche","löscht",haben
+1883,3136,"löschen","","","lösche",lischt,lischt,losch,geloschen,"lösche",lisch,"löscht",sein
 1883,3136,"löschen","","","lösche","löschst","löscht","löschte","gelöscht","löschte","lösche","löscht",haben
 1884,3131,testen,"","",teste,testest,testet,testete,getestet,testete,teste,testet,haben
 1885,3131,wetten,"","",wette,wettest,wettet,wettete,gewettet,wettete,wette,wettet,haben
@@ -682,13 +682,13 @@ rank,freq,Infinitiv,Unreg,Trans,"Präsens_ich","Präsens_du","Präsens_er, sie, 
 2334,2395,"bekämpfen","","","bekämpfe","bekämpfst","bekämpft","bekämpfte","bekämpft","bekämpfte","bekämpf","bekämpft",haben
 2335,2393,ergreifen,"","",ergreife,ergreifst,ergreift,ergriff,ergriffen,ergriffe,ergreife,ergreift,haben
 2336,2391,reizen,"","",reize,reizt,reizt,reizte,gereizt,reizte,reize,reizt,haben
-2337,2389,weichen,"","",weiche,weichst,weicht,weichte,geweicht,weichte,weiche,weicht,haben
 2337,2389,weichen,"","",weiche,weichst,weicht,wich,gewichen,wiche,weiche,weicht,sein
+2337,2389,weichen,"","",weiche,weichst,weicht,weichte,geweicht,weichte,weiche,weicht,haben
 2338,2388,vergewaltigen,"","",vergewaltige,vergewaltigst,vergewaltigt,vergewaltigte,vergewaltigt,vergewaltigte,vergewaltige,vergewaltigt,haben
 2340,2385,flehen,"","",flehe,flehst,fleht,flehte,gefleht,flehte,flehe,fleht,haben
 2343,2382,modern,"","",modere,moderst,modert,moderte,gemodert,moderte,modere,modert,haben
-2345,2374,umziehen,"","",umziehe,umziehst,umzieht,umzog,umzogen,"umzöge",umzieh,umzieht,haben
 2345,2374,umziehen,"","","ziehe um","ziehst um","zieht um","zog um",umgezogen,"zöge um","zieh um","zieht um",sein
+2345,2374,umziehen,"","",umziehe,umziehst,umzieht,umzog,umzogen,"umzöge",umzieh,umzieht,haben
 2346,2374,gestehen,"","",gestehe,gestehst,gesteht,gestand,gestanden,"gestände",gestehe,gesteht,haben
 2349,2371,befragen,"","",befrage,befragst,befragt,befragte,befragt,befragte,befrag,befragt,haben
 2356,2358,ertrinken,"","",ertrinke,ertrinkst,ertrinkt,ertrank,ertrunken,"ertränke",ertrinke,ertrinkt,sein
@@ -711,8 +711,8 @@ rank,freq,Infinitiv,Unreg,Trans,"Präsens_ich","Präsens_du","Präsens_er, sie, 
 2448,2225,bergen,"","",berge,birgst,birgt,barg,geborgen,"bärge",birg,bergt,haben
 2450,2217,"vermögen","","",vermag,vermagst,vermag,vermochte,vermocht,"vermöchte","vermöge","vermöget",haben
 2451,2215,beherrschen,"","",beherrsche,beherrschst,beherrscht,beherrschte,beherrscht,beherrschte,beherrsche,beherrscht,haben
-2455,2212,"überfallen","","","falle über","fällst über","fällt über","fiel über","übergefallen","fiele über","fall über","fallt über",sein
 2455,2212,"überfallen","","","überfalle","überfällst","überfällt","überfiel","überfallen","überfiele","überfall","überfallt",haben
+2455,2212,"überfallen","","","falle über","fällst über","fällt über","fiel über","übergefallen","fiele über","fall über","fallt über",sein
 2458,2211,osten,"","",oste,ostest,ostet,ostete,geostet,ostete,ost,ostet,haben
 2464,2202,"rächen","","","räche","rächst","rächt","rächte","gerächt","rächte","räche","rächt",haben
 2465,2202,verschaffen,"","",verschaffe,verschaffst,verschafft,verschaffte,verschafft,verschaffte,verschaff,verschafft,haben
@@ -777,8 +777,8 @@ rank,freq,Infinitiv,Unreg,Trans,"Präsens_ich","Präsens_du","Präsens_er, sie, 
 2707,1966,vereinen,"","",vereine,vereinst,vereint,vereinte,vereint,vereinte,vereine,vereint,haben
 2708,1965,sprengen,"","",sprenge,sprengst,sprengt,sprengte,gesprengt,sprengte,sprenge,sprengt,haben
 2709,1965,versorgen,"","",versorge,versorgst,versorgt,versorgte,versorgt,versorgte,versorg,versorgt,haben
-2710,1963,durchgehen,"","",durchgehe,durchgehst,durchgeht,durchging,durchgangen,durchginge,durchgehe,durchgeht,haben
 2710,1963,durchgehen,"","","gehe durch","gehst durch","geht durch","ging durch",durchgegangen,"ginge durch","geh durch","geht durch",sein
+2710,1963,durchgehen,"","",durchgehe,durchgehst,durchgeht,durchging,durchgangen,durchginge,durchgehe,durchgeht,haben
 2711,1962,verabreden,"","",verabrede,verabredest,verabredet,verabredete,verabredet,verabredete,verabrede,verabredet,haben
 2720,1958,verbreiten,"","",verbreite,verbreitest,verbreitet,verbreitete,verbreitet,verbreitete,verbreite,verbreitet,haben
 2725,1956,abziehen,"","","ziehe ab","ziehst ab","zieht ab","zog ab",abgezogen,"zöge ab","ziehe ab","zieht ab",haben
@@ -829,8 +829,8 @@ rank,freq,Infinitiv,Unreg,Trans,"Präsens_ich","Präsens_du","Präsens_er, sie, 
 2909,1806,verbessern,"","",verbessere,verbesserst,verbessert,verbesserte,verbessert,verbesserte,verbesser,verbessert,haben
 2919,1800,enthalten,"","",enthalte,"enthältst","enthält",enthielt,enthalten,enthielte,enthalte,enthaltet,haben
 2921,1798,zweifeln,"","",zweifle,zweifelst,zweifelt,zweifelte,gezweifelt,zweifelte,zweifle,zweifelt,haben
-2922,1798,"übersehen","","","sehe über","siehst über","sieht über","sah über","übergesehen","sähe über","sieh über","seht über",haben
 2922,1798,"übersehen","","","übersehe","übersiehst","übersieht","übersah","übersehen","übersähe","übersieh","überseht",haben
+2922,1798,"übersehen","","","sehe über","siehst über","sieht über","sah über","übergesehen","sähe über","sieh über","seht über",haben
 2929,1794,abbrechen,X,X,"breche ab","brichst ab","bricht ab","brach ab",abgebrochen,"bräche ab","brich ab","brecht ab",haben
 2930,1792,hinlegen,"","","lege hin","legst hin","legt hin","legte hin",hingelegt,"legte hin","lege hin","legt hin",haben
 2931,1790,erteilen,"","",erteile,erteilst,erteilt,erteilte,erteilt,erteilte,erteil,erteilt,haben
@@ -859,12 +859,12 @@ rank,freq,Infinitiv,Unreg,Trans,"Präsens_ich","Präsens_du","Präsens_er, sie, 
 3040,1700,versehen,"","",versehe,versiehst,versieht,versah,versehen,"versähe",versieh,verseht,haben
 3041,1700,"aufspüren","","","spüre auf","spürst auf","spürt auf","spürte auf","aufgespürt","spürte auf","spür auf","spürt auf",haben
 3047,1698,ausrichten,"","","richte aus","richtest aus","richtet aus","richtete aus",ausgerichtet,"richtete aus","richte aus","richtet aus",haben
-3048,1697,"überstehen","","","stehe über","stehst über","steht über","stand über","übergestanden","stände über","steh über","steht über",haben
 3048,1697,"überstehen","","","überstehe","überstehst","übersteht","überstand","überstanden","überstände","übersteh","übersteht",haben
+3048,1697,"überstehen","","","stehe über","stehst über","steht über","stand über","übergestanden","stände über","steh über","steht über",haben
 3051,1696,pflanzen,"","",pflanze,pflanzt,pflanzt,pflanzte,gepflanzt,pflanzte,pflanze,pflanzt,haben
 3054,1695,auflegen,"","","lege auf","legst auf","legt auf","legte auf",aufgelegt,"legte auf","leg auf","legt auf",haben
-3055,1694,durchziehen,"","",durchziehe,durchziehst,durchzieht,durchzog,durchzogen,"durchzöge",durchziehe,durchzieht,haben
 3055,1694,durchziehen,"","","ziehe durch","ziehst durch","zieht durch","zog durch",durchgezogen,"zöge durch","zieh durch","zieht durch",haben
+3055,1694,durchziehen,"","",durchziehe,durchziehst,durchzieht,durchzog,durchzogen,"durchzöge",durchziehe,durchzieht,haben
 3057,1690,infizieren,"","",infiziere,infizierst,infiziert,infizierte,infiziert,infizierte,infiziere,infiziert,haben
 3061,1687,"entschließen",X,"","entschließe","entschließt","entschließt",entschloss,entschlossen,"entschlösse","entschließ","entschließt",haben
 3062,1687,abreisen,"","","reise ab","reist ab","reist ab","reiste ab",abgereist,"reiste ab","reise ab","reist ab",sein
@@ -904,8 +904,8 @@ rank,freq,Infinitiv,Unreg,Trans,"Präsens_ich","Präsens_du","Präsens_er, sie, 
 3203,1592,aufbrechen,"","","breche auf","brichst auf","bricht auf","brach auf",aufgebrochen,"bräche auf","brich auf","brecht auf",sein
 3204,1591,ablegen,"","","lege ab","legst ab","legt ab","legte ab",abgelegt,"legte ab","lege ab","legt ab",haben
 3206,1590,foltern,"","",foltere,folterst,foltert,folterte,gefoltert,folterte,foltere,foltert,haben
-3211,1588,"überfahren","","","fahre über","fährst über","fährt über","fuhr über","übergefahren","führe über","fahre über","fahrt über",sein
 3211,1588,"überfahren","","","überfahre","überfährst","überfährt","überfuhr","überfahren","überführe","überfahre","überfahrt",haben
+3211,1588,"überfahren","","","fahre über","fährst über","fährt über","fuhr über","übergefahren","führe über","fahre über","fahrt über",sein
 3212,1588,haken,"","",hake,hakst,hakt,hakte,gehakt,hakte,hake,hakt,haben
 3214,1587,"übertragen","","","übertrage","überträgst","überträgt","übertrug","übertragen","übertrüge","übertrag","übertragt",haben
 3216,1587,tropfen,"","",tropfe,tropfst,tropft,tropfte,getropft,tropfte,tropfe,tropft,haben
@@ -915,8 +915,8 @@ rank,freq,Infinitiv,Unreg,Trans,"Präsens_ich","Präsens_du","Präsens_er, sie, 
 3230,1575,"münzen","","","münze","münzt","münzt","münzte","gemünzt","münzte","münz","münzt",haben
 3243,1566,beseitigen,"","",beseitige,beseitigst,beseitigt,beseitigte,beseitigt,beseitigte,beseitige,beseitigt,haben
 3247,1564,verpflichten,"",X,verpflichte,verpflichtest,verpflichtet,verpflichtete,verpflichtet,verpflichtete,verpflichte,verpflichtet,haben
-3248,1561,wiegen,"","",wiege,wiegst,wiegt,wiegte,gewiegt,wiegte,wieg,wiegt,haben
 3248,1561,wiegen,"","",wiege,wiegst,wiegt,wog,gewogen,"wöge",wieg,wiegt,haben
+3248,1561,wiegen,"","",wiege,wiegst,wiegt,wiegte,gewiegt,wiegte,wieg,wiegt,haben
 3252,1559,angeln,"","",angle,angelst,angelt,angelte,geangelt,angelte,angle,angelt,haben
 3253,1558,lenken,"","",lenke,lenkst,lenkt,lenkte,gelenkt,lenkte,lenk,lenkt,haben
 3256,1557,verehren,"","",verehre,verehrst,verehrt,verehrte,verehrt,verehrte,verehre,verehrt,haben
@@ -1000,8 +1000,8 @@ rank,freq,Infinitiv,Unreg,Trans,"Präsens_ich","Präsens_du","Präsens_er, sie, 
 3664,1346,vergeuden,"","",vergeude,vergeudest,vergeudet,vergeudete,vergeudet,vergeudete,vergeude,vergeudet,haben
 3670,1341,verleihen,"","",verleihe,verleihst,verleiht,verlieh,verliehen,verliehe,verleih,verleiht,haben
 3680,1335,anheuern,"","","heuere an","heuerst an","heuert an","heuerte an",angeheuert,"heuerte an","heuere an","heuert an",haben
-3689,1330,backen,"","",backe,backst,backt,backte,gebackt,backte,backe,backt,haben
 3689,1330,backen,"","",backe,"bäckst","bäckt",buk,gebacken,"büke",backe,backt,haben
+3689,1330,backen,"","",backe,backst,backt,backte,gebackt,backte,backe,backt,haben
 3690,1329,flammen,"","",flamme,flammst,flammt,flammte,geflammt,flammte,flamm,flammt,haben
 3694,1327,erden,"","",erde,erdest,erdet,erdete,geerdet,erdete,erde,erdet,haben
 3714,1320,knurren,"","",knurre,knurrst,knurrt,knurrte,geknurrt,knurrte,knurre,knurrt,haben
@@ -1096,8 +1096,8 @@ rank,freq,Infinitiv,Unreg,Trans,"Präsens_ich","Präsens_du","Präsens_er, sie, 
 4191,1114,"verstärken","","","verstärke","verstärkst","verstärkt","verstärkte","verstärkt","verstärkte","verstärk","verstärkt",haben
 4196,1112,verziehen,"",X,verziehe,verziehst,verzieht,verzog,verzogen,"verzöge",verziehe,verzieht,haben
 4205,1107,"abreißen","","","reiße ab","reißt ab","reißt ab","riss ab",abgerissen,"risse ab","reiß ab","reißt ab",haben
-4209,1106,quellen,"","",quelle,quellst,quellt,quellte,gequellt,quellte,quell,quellt,haben
 4209,1106,quellen,X,"",quelle,quillst,quillt,quoll,gequollen,"quölle",quill,quellt,sein
+4209,1106,quellen,"","",quelle,quellst,quellt,quellte,gequellt,quellte,quell,quellt,haben
 4211,1106,ausleihen,"","","leihe aus","leihst aus","leiht aus","lieh aus",ausgeliehen,"liehe aus","leih aus","leiht aus",haben
 4215,1104,inspirieren,"","",inspiriere,inspirierst,inspiriert,inspirierte,inspiriert,inspirierte,inspiriere,inspiriert,haben
 4221,1102,verkleiden,"","",verkleide,verkleidest,verkleidet,verkleidete,verkleidet,verkleidete,verkleide,verkleidet,haben
@@ -1278,10 +1278,10 @@ rank,freq,Infinitiv,Unreg,Trans,"Präsens_ich","Präsens_du","Präsens_er, sie, 
 5117,852,klirren,"","",klirre,klirrst,klirrt,klirrte,geklirrt,klirrte,klirre,klirrt,haben
 5124,850,"bäumen","","","bäume","bäumst","bäumt","bäumte","gebäumt","bäumte","bäum","bäumt",haben
 5127,850,seifen,"","",seife,seifst,seift,seifte,geseift,seifte,seif,seift,haben
-5135,848,scheren,"","",schere,scherst,schert,scherte,geschert,scherte,schere,schert,haben
-5135,848,scheren,"","",schere,scherst,schert,scherte,geschert,scherte,schere,schert,haben
-5135,848,scheren,"","",schere,scherst,schert,scherte,geschert,scherte,schere,schert,haben
 5135,848,scheren,X,"",schere,scherst,schert,schor,geschoren,"schöre",schere,schert,haben
+5135,848,scheren,"","",schere,scherst,schert,scherte,geschert,scherte,schere,schert,haben
+5135,848,scheren,"","",schere,scherst,schert,scherte,geschert,scherte,schere,schert,haben
+5135,848,scheren,"","",schere,scherst,schert,scherte,geschert,scherte,schere,schert,haben
 5135,848,scheren,X,"",schere,scherst,schert,schor,geschoren,"schöre",schere,schert,haben
 5141,847,notieren,"","",notiere,notierst,notiert,notierte,notiert,notierte,notiere,notiert,haben
 5143,847,belohnen,"","",belohne,belohnst,belohnt,belohnte,belohnt,belohnte,belohn,belohnt,haben
@@ -1465,8 +1465,8 @@ rank,freq,Infinitiv,Unreg,Trans,"Präsens_ich","Präsens_du","Präsens_er, sie, 
 6095,674,rahmen,"","",rahme,rahmst,rahmt,rahmte,gerahmt,rahmte,rahm,rahmt,haben
 6095,674,rahmen,"","",rahme,rahmst,rahmt,rahmte,gerahmt,rahmte,rahm,rahmt,haben
 6101,673,hausen,"","",hause,haust,haust,hauste,gehaust,hauste,hause,haust,haben
-6106,672,umstellen,"","","stelle um","stellst um","stellt um","stellte um",umgestellt,"stellte um","stell um","stellt um",haben
 6106,672,umstellen,"","",umstelle,umstellst,umstellt,umstellte,umstellt,umstellte,umstelle,umstellt,haben
+6106,672,umstellen,"","","stelle um","stellst um","stellt um","stellte um",umgestellt,"stellte um","stell um","stellt um",haben
 6110,672,speichern,"","",speichere,speicherst,speichert,speicherte,gespeichert,speicherte,speichere,speichert,haben
 6114,672,"erkälten","","","erkälte","erkältest","erkältet","erkältete","erkältet","erkältete","erkälte","erkältet",haben
 6126,671,realisieren,"","",realisiere,realisierst,realisiert,realisierte,realisiert,realisierte,realisiere,realisiert,haben
@@ -1557,21 +1557,21 @@ rank,freq,Infinitiv,Unreg,Trans,"Präsens_ich","Präsens_du","Präsens_er, sie, 
 6666,591,untertauchen,"","","tauche unter","tauchst unter","taucht unter","tauchte unter",untergetaucht,"tauchte unter","tauch unter","taucht unter",haben
 6667,591,abwenden,"","","wende ab","wendest ab","wendet ab","wendete ab",abgewendet,"wendete ab","wende ab","wendet ab",haben
 6672,591,improvisieren,"","",improvisiere,improvisierst,improvisiert,improvisierte,improvisiert,improvisierte,improvisiere,improvisiert,haben
-6679,590,durchdringen,"","","dringe durch","dringst durch","dringt durch","drang durch",durchgedrungen,"dränge durch","dring durch","dringt durch",sein
 6679,590,durchdringen,"","",durchdringe,durchdringst,durchdringt,durchdrang,durchdrungen,"durchdränge",durchdring,durchdringt,haben
+6679,590,durchdringen,"","","dringe durch","dringst durch","dringt durch","drang durch",durchgedrungen,"dränge durch","dring durch","dringt durch",sein
 6683,590,schneien,"","",schneie,schneist,schneit,schneite,geschneit,schneite,schnei,schneit,haben
 6689,589,"bedrücken","","","bedrücke","bedrückst","bedrückt","bedrückte","bedrückt","bedrückte","bedrück","bedrückt",haben
 6693,588,ernten,"","",ernte,erntest,erntet,erntete,geerntet,erntete,ernt,erntet,haben
 6695,588,klarmachen,"","","mache klar","machst klar","macht klar","machte klar",klargemacht,"machte klar","mach klar","macht klar",haben
 6701,587,"verlängern","","","verlängere","verlängerst","verlängert","verlängerte","verlängert","verlängerte","verlängere","verlängert",haben
-6706,587,killen,"","","","",killt,killte,gekillt,killte,"","",haben
 6706,587,killen,"","",kille,killst,killt,killte,gekillt,killte,kille,killt,haben
+6706,587,killen,"","","","",killt,killte,gekillt,killte,"","",haben
 6717,585,konfrontieren,"","",konfrontiere,konfrontierst,konfrontiert,konfrontierte,konfrontiert,konfrontierte,konfrontiere,konfrontiert,haben
 6718,585,stabilisieren,"","",stabilisiere,stabilisierst,stabilisiert,stabilisierte,stabilisiert,stabilisierte,stabilisier,stabilisiert,haben
 6721,585,schimpfen,"","",schimpfe,schimpfst,schimpft,schimpfte,geschimpft,schimpfte,schimpf,schimpft,haben
 6722,585,"entzünden","","","entzünde","entzündest","entzündet","entzündete","entzündet","entzündete","entzünd","entzündet",haben
-6723,585,durchsetzen,"","",durchsetze,durchsetzt,durchsetzt,durchsetzte,durchsetzt,durchsetzte,durchsetze,durchsetzt,haben
 6723,585,durchsetzen,"","","setze durch","setzt durch","setzt durch","setzte durch",durchgesetzt,"setzte durch","setze durch","setzt durch",haben
+6723,585,durchsetzen,"","",durchsetze,durchsetzt,durchsetzt,durchsetzte,durchsetzt,durchsetzte,durchsetze,durchsetzt,haben
 6726,584,austricksen,"","","trickse aus","trickst aus","trickst aus","trickste aus",ausgetrickst,"trickste aus","tricks aus","trickst aus",haben
 6728,584,auskommen,"","","komme aus","kommst aus","kommt aus","kam aus",ausgekommen,"käme aus","komme aus","kommt aus",sein
 6732,584,"übermitteln","","","übermittle","übermittelst","übermittelt","übermittelte","übermittelt","übermittelte","übermittle","übermittelt",haben
@@ -1600,8 +1600,8 @@ rank,freq,Infinitiv,Unreg,Trans,"Präsens_ich","Präsens_du","Präsens_er, sie, 
 6843,571,"würdigen","","","würdige","würdigst","würdigt","würdigte","gewürdigt","würdigte","würdig","würdigt",haben
 6851,570,scannen,"","",scanne,scannst,scannt,scannte,gescannt,scannte,scanne,scannt,haben
 6864,568,verjagen,"","",verjage,verjagst,verjagt,verjagte,verjagt,verjagte,verjag,verjagt,haben
-6872,567,hinziehen,"","","ziehe hin","ziehst hin","zieht hin","zog hin",hingezogen,"zöge hin","ziehe hin","zieht hin",haben
 6872,567,hinziehen,"","","ziehe hin","ziehst hin","zieht hin","zog hin",hingezogen,"zöge hin","ziehe hin","zieht hin",sein
+6872,567,hinziehen,"","","ziehe hin","ziehst hin","zieht hin","zog hin",hingezogen,"zöge hin","ziehe hin","zieht hin",haben
 6874,567,verbrauchen,"","",verbrauche,verbrauchst,verbraucht,verbrauchte,verbraucht,verbrauchte,verbrauche,verbraucht,haben
 6879,567,abbiegen,"","","biege ab","biegst ab","biegt ab","bog ab",abgebogen,"böge ab","bieg ab","biegt ab",haben
 6896,564,lauschen,"","",lausche,lauschst,lauscht,lauschte,gelauscht,lauschte,lausche,lauscht,haben
@@ -1636,8 +1636,8 @@ rank,freq,Infinitiv,Unreg,Trans,"Präsens_ich","Präsens_du","Präsens_er, sie, 
 7106,542,ausrasten,"","","raste aus","rastest aus","rastet aus","rastete aus",ausgerastet,"rastete aus","rast aus","rastet aus",sein
 7107,542,"erhören","","","erhöre","erhörst","erhört","erhörte","erhört","erhörte","erhöre","erhört",haben
 7118,541,strafen,"","",strafe,strafst,straft,strafte,gestraft,strafte,strafe,straft,haben
-7123,541,"überholen","","","hole über","holst über","holt über","holte über","übergeholt","holte über","hol über","holt über",haben
 7123,541,"überholen","","","überhole","überholst","überholt","überholte","überholt","überholte","überhol","überholt",haben
+7123,541,"überholen","","","hole über","holst über","holt über","holte über","übergeholt","holte über","hol über","holt über",haben
 7127,541,abriegeln,"","","riegele ab","riegelst ab","riegelt ab","riegelte ab",abgeriegelt,"riegelte ab","riegele ab","riegelt ab",haben
 7136,540,"färben","","","färbe","färbst","färbt","färbte","gefärbt","färbte","färbe","färbt",haben
 7139,539,alarmieren,"","",alarmiere,alarmierst,alarmiert,alarmierte,alarmiert,alarmierte,alarmier,alarmiert,haben
@@ -1645,8 +1645,8 @@ rank,freq,Infinitiv,Unreg,Trans,"Präsens_ich","Präsens_du","Präsens_er, sie, 
 7143,539,betonen,"","",betone,betonst,betont,betonte,betont,betonte,betone,betont,haben
 7166,537,kitzeln,"","",kitzele,kitzelst,kitzelt,kitzelte,gekitzelt,kitzelte,kitzele,kitzelt,haben
 7177,536,reihen,"","",reihe,reihst,reiht,reihte,gereiht,reihte,reih,reiht,haben
-7177,536,reihen,"","",reihe,reihst,reiht,reihte,gereiht,reihte,reih,reiht,haben
 7177,536,reihen,"","",reihe,reihst,reiht,reihte,gereiht,rieh,reih,reiht,haben
+7177,536,reihen,"","",reihe,reihst,reiht,reihte,gereiht,reihte,reih,reiht,haben
 7182,536,weiden,"","",weide,weidest,weidet,weidete,geweidet,weidete,weide,weidet,haben
 7196,534,aufessen,"","","esse auf","isst auf","isst auf","aß auf",aufgegessen,"äße auf","iss auf","esst auf",haben
 7220,531,"überreichen","","","überreiche","überreichst","überreicht","überreichte","überreicht","überreichte","überreich","überreicht",haben
@@ -1702,8 +1702,8 @@ rank,freq,Infinitiv,Unreg,Trans,"Präsens_ich","Präsens_du","Präsens_er, sie, 
 7615,494,verborgen,"","",verborge,verborgst,verborgt,verborgte,verborgt,verborgte,verborg,verborgt,haben
 7623,493,belassen,"","",belasse,"belässt","belässt","beließ",belassen,"beließe",belass,belasst,haben
 7625,493,zuteilen,"","","teile zu","teilst zu","teilt zu","teilte zu",zugeteilt,"teilte zu","teil zu","teilt zu",haben
-7628,492,"überspringen","","","springe über","springst über","springt über","sprang über","übergesprungen","spränge über","spring über","springt über",sein
 7628,492,"überspringen","","","überspringe","überspringst","überspringt","übersprang","übersprungen","überspränge","überspring","überspringt",haben
+7628,492,"überspringen","","","springe über","springst über","springt über","sprang über","übergesprungen","spränge über","spring über","springt über",sein
 7630,492,"beschwören","","","beschwöre","beschwörst","beschwört",beschwor,beschworen,"beschwöre","beschwöre","beschwört",haben
 7644,491,mithalten,"","","halte mit","hältst mit","hält mit","hielt mit",mitgehalten,"hielte mit","halte mit","haltet mit",haben
 7647,491,schummeln,"","",schummle,schummelst,schummelt,schummelte,geschummelt,schummelte,schummle,schummelt,haben
@@ -1720,17 +1720,17 @@ rank,freq,Infinitiv,Unreg,Trans,"Präsens_ich","Präsens_du","Präsens_er, sie, 
 7720,483,aufschneiden,"","","schneide auf","schneidest auf","schneidet auf","schnitt auf",aufgeschnitten,"schnitte auf","schneide auf","schneidet auf",haben
 7723,483,voraussetzen,"","","setze voraus","setzt voraus","setzt voraus","setzte voraus",vorausgesetzt,"setzte voraus","setz voraus","setzt voraus",haben
 7725,482,"entschlüsseln","","","entschlüssle","entschlüsselst","entschlüsselt","entschlüsselte","entschlüsselt","entschlüsselte","entschlüssle","entschlüsselt",haben
-7728,482,durchbrennen,"","",durchbrenne,durchbrennst,durchbrennt,durchbrannte,durchbrannt,durchbrennte,durchbrenne,durchbrennt,haben
 7728,482,durchbrennen,"",X,"brenne durch","brennst durch","brennt durch","brannte durch",durchgebrannt,"brennte durch","brenn durch","brennt durch",sein
+7728,482,durchbrennen,"","",durchbrenne,durchbrennst,durchbrennt,durchbrannte,durchbrannt,durchbrennte,durchbrenne,durchbrennt,haben
 7736,481,hinnehmen,"","","nehme hin","nimmst hin","nimmt hin","nahm hin",hingenommen,"nähme hin","nimm hin","nehmt hin",haben
 7740,481,anhaben,"","","habe an","hast an","hat an","hatte an",angehabt,"hätte an","hab an","habt an",haben
-7747,480,unterstellen,"","","stelle unter","stellst unter","stellt unter","stellte unter",untergestellt,"stellte unter","stell unter","stellt unter",haben
 7747,480,unterstellen,"",X,unterstelle,unterstellst,unterstellt,unterstellte,unterstellt,unterstellte,unterstelle,unterstellt,haben
+7747,480,unterstellen,"","","stelle unter","stellst unter","stellt unter","stellte unter",untergestellt,"stellte unter","stell unter","stellt unter",haben
 7751,480,"entschärfen","","","entschärfe","entschärfst","entschärft","entschärfte","entschärft","entschärfte","entschärf","entschärft",haben
 7755,480,berechtigen,"","",berechtige,berechtigst,berechtigt,berechtigte,berechtigt,berechtigte,berechtig,berechtigt,haben
 7760,479,ausgleichen,"","","gleiche aus","gleichst aus","gleicht aus","glich aus",ausgeglichen,"gliche aus","gleiche aus","gleicht aus",haben
-7765,479,unterliegen,"","","liege unter","liegst unter","liegt unter","lag unter",untergelegen,"läge unter","liege unter","liegt unter",haben
 7765,479,unterliegen,"","",unterliege,unterliegst,unterliegt,unterlag,unterlegen,"unterläge",unterliege,unterliegt,haben
+7765,479,unterliegen,"","","liege unter","liegst unter","liegt unter","lag unter",untergelegen,"läge unter","liege unter","liegt unter",haben
 7768,479,vordringen,"","","dringe vor","dringst vor","dringt vor","drang vor",vorgedrungen,"dränge vor","dring vor","dringt vor",sein
 7772,478,"schlüpfen","","","schlüpfe","schlüpfst","schlüpft","schlüpfte","geschlüpft","schlüpfte","schlüpfe","schlüpft",sein
 7776,478,verschenken,"","",verschenke,verschenkst,verschenkt,verschenkte,verschenkt,verschenkte,verschenk,verschenkt,haben
@@ -1809,8 +1809,8 @@ rank,freq,Infinitiv,Unreg,Trans,"Präsens_ich","Präsens_du","Präsens_er, sie, 
 8295,435,schocken,"","",schocke,schockst,schockt,schockte,geschockt,schockte,schocke,schockt,haben
 8310,433,massieren,"","",massiere,massierst,massiert,massierte,massiert,massierte,massiere,massiert,haben
 8311,433,schlingen,"","",schlinge,schlingst,schlingt,schlang,geschlungen,"schlänge",schlinge,schlingt,haben
-8327,432,durchfallen,"","",durchfalle,"durchfällst","durchfällt",durchfiel,durchfallen,durchfiele,durchfalle,durchfallt,haben
 8327,432,durchfallen,"","","falle durch","fällst durch","fällt durch","fiel durch",durchgefallen,"fiele durch","falle durch","fallt durch",sein
+8327,432,durchfallen,"","",durchfalle,"durchfällst","durchfällt",durchfiel,durchfallen,durchfiele,durchfalle,durchfallt,haben
 8337,432,hinhalten,"","","halte hin","hältst hin","hält hin","hielt hin",hingehalten,"hielte hin","halt hin","haltet hin",haben
 8342,431,erbauen,"","",erbaue,erbaust,erbaut,erbaute,erbaut,erbaute,erbaue,erbaut,haben
 8350,431,misstrauen,"","",misstraue,misstraust,misstraut,misstraute,misstraut,misstraute,misstraue,misstraut,haben
@@ -1889,8 +1889,8 @@ rank,freq,Infinitiv,Unreg,Trans,"Präsens_ich","Präsens_du","Präsens_er, sie, 
 8899,390,abbrennen,"","","brenne ab","brennst ab","brennt ab","brannte ab",abgebrannt,"brennte ab","brenn ab","brennt ab",haben
 8903,390,"tätowieren","","","tätowiere","tätowierst","tätowiert","tätowierte","tätowiert","tätowierte","tätowiere","tätowiert",haben
 8917,389,spezialisieren,"","",spezialisiere,spezialisierst,spezialisiert,spezialisierte,spezialisiert,spezialisierte,spezialisier,spezialisiert,haben
-8918,389,"gären","","","","","gärt","gärte","gegärt","gärte","","",haben
 8918,389,"gären","","","gäre","gärst","gärt",gor,gegoren,"göre","gäre","gärt",haben
+8918,389,"gären","","","","","gärt","gärte","gegärt","gärte","","",haben
 8922,389,gefrieren,"","",gefriere,gefrierst,gefriert,gefror,gefroren,"gefröre",gefrier,gefriert,sein
 8923,389,verrecken,"","",verrecke,verreckst,verreckt,verreckte,verreckt,verreckte,verrecke,verreckt,sein
 8934,388,verheilen,"","","","",verheilt,verheilte,verheilt,verheilte,"","",sein
@@ -1924,8 +1924,8 @@ rank,freq,Infinitiv,Unreg,Trans,"Präsens_ich","Präsens_du","Präsens_er, sie, 
 9144,375,"erwägen","","","erwäge","erwägst","erwägt",erwog,erwogen,"erwöge","erwäg","erwägt",haben
 9146,375,blinzeln,"","",blinzle,blinzelst,blinzelt,blinzelte,geblinzelt,blinzelte,blinzle,blinzelt,haben
 9147,375,schikanieren,"","",schikaniere,schikanierst,schikaniert,schikanierte,schikaniert,schikanierte,schikanier,schikaniert,haben
-9151,375,unterstehen,"","","stehe unter","stehst unter","steht unter","stand unter",untergestanden,"stünde unter","stehe unter","steht unter",haben
 9151,375,unterstehen,"","",unterstehe,unterstehst,untersteht,unterstand,unterstanden,"unterstünde",unterstehe,untersteht,haben
+9151,375,unterstehen,"","","stehe unter","stehst unter","steht unter","stand unter",untergestanden,"stünde unter","stehe unter","steht unter",haben
 9159,374,praktizieren,"","",praktiziere,praktizierst,praktiziert,praktizierte,praktiziert,praktizierte,praktiziere,praktiziert,haben
 9177,373,irritieren,"","",irritiere,irritierst,irritiert,irritierte,irritiert,irritierte,irritiere,irritiert,haben
 9179,373,"aufschließen","","","schließe auf","schließt auf","schließt auf","schloss auf",aufgeschlossen,"schlösse auf","schließ auf","schließt auf",haben
@@ -2117,16 +2117,16 @@ rank,freq,Infinitiv,Unreg,Trans,"Präsens_ich","Präsens_du","Präsens_er, sie, 
 10562,303,einbeziehen,"","","beziehe ein","beziehst ein","bezieht ein","bezog ein",einbezogen,"bezöge ein","beziehe ein","bezieht ein",haben
 10593,302,absprechen,"","","spreche ab","sprichst ab","spricht ab","sprach ab",abgesprochen,"spräche ab","sprich ab","sprecht ab",haben
 10595,302,absorbieren,"","",absorbiere,absorbierst,absorbiert,absorbierte,absorbiert,absorbierte,absorbiere,absorbiert,haben
-10606,302,"übersteigen","","","steige über","steigst über","steigt über","stieg über","übergestiegen","stiege über","steig über","steigt über",sein
 10606,302,"übersteigen","","","übersteige","übersteigst","übersteigt","überstieg","überstiegen","überstiege","übersteig","übersteigt",haben
+10606,302,"übersteigen","","","steige über","steigst über","steigt über","stieg über","übergestiegen","stiege über","steig über","steigt über",sein
 10607,301,auslaufen,"","","laufe aus","läufst aus","läuft aus","lief aus",ausgelaufen,"liefe aus","lauf aus","lauft aus",sein
 10613,301,abbringen,"","","bringe ab","bringst ab","bringt ab","brachte ab",abgebracht,"brächte ab","bring ab","bringt ab",haben
 10614,301,konfiszieren,"","",konfisziere,konfiszierst,konfisziert,konfiszierte,konfisziert,konfiszierte,konfiszier,konfisziert,haben
 10618,301,belehren,"","",belehre,belehrst,belehrt,belehrte,belehrt,belehrte,belehr,belehrt,haben
 10619,301,applaudieren,"","",applaudiere,applaudierst,applaudiert,applaudierte,applaudiert,applaudierte,applaudiere,applaudiert,haben
 10634,301,stattgeben,"","","gebe statt","gibst statt","gibt statt","gab statt",stattgegeben,"gäbe statt","gib statt","gebt statt",haben
-10638,301,durchlaufen,"","",durchlaufe,"durchläufst","durchläuft",durchlief,durchlaufen,durchliefe,durchlauf,durchlauft,haben
 10638,301,durchlaufen,"","","laufe durch","läufst durch","läuft durch","lief durch",durchgelaufen,"liefe durch","lauf durch","lauft durch",sein
+10638,301,durchlaufen,"","",durchlaufe,"durchläufst","durchläuft",durchlief,durchlaufen,durchliefe,durchlauf,durchlauft,haben
 10645,300,drankriegen,"","","kriege dran","kriegst dran","kriegt dran","kriegte dran",drangekriegt,"kriegte dran","krieg dran","kriegt dran",haben
 10646,300,einschreiben,"","","schreibe ein","schreibst ein","schreibt ein","schrieb ein",eingeschrieben,"schriebe ein","schreib ein","schreibt ein",haben
 10659,300,erbrechen,"","",erbreche,erbrichst,erbricht,erbrach,erbrochen,"erbräche",erbrich,erbrecht,haben
@@ -2192,8 +2192,8 @@ rank,freq,Infinitiv,Unreg,Trans,"Präsens_ich","Präsens_du","Präsens_er, sie, 
 11142,281,infiltrieren,"","",infiltriere,infiltrierst,infiltriert,infiltrierte,infiltriert,infiltrierte,infiltriere,infiltriert,haben
 11163,280,zusammenziehen,"","","ziehe zusammen","ziehst zusammen","zieht zusammen","zog zusammen",zusammengezogen,"zöge zusammen","ziehe zusammen","zieht zusammen",haben
 11167,280,"röntgen","","","röntge","röntgst","röntgt","röntgte","geröntgt","röntgte","röntge","röntgt",haben
-11186,279,untergraben,"","","grabe unter","gräbst unter","gräbt unter","grub unter",untergegraben,"grübe unter","grab unter","grabt unter",haben
 11186,279,untergraben,"","",untergrabe,"untergräbst","untergräbt",untergrub,untergraben,"untergrübe",untergrab,untergrabt,haben
+11186,279,untergraben,"","","grabe unter","gräbst unter","gräbt unter","grub unter",untergegraben,"grübe unter","grab unter","grabt unter",haben
 11189,279,bewohnen,"",X,bewohne,bewohnst,bewohnt,bewohnte,bewohnt,bewohnte,bewohne,bewohnt,haben
 11194,279,anzapfen,"","","zapfe an","zapfst an","zapft an","zapfte an",angezapft,"zapfte an","zapf an","zapft an",haben
 11197,279,"bürgen","","","bürge","bürgst","bürgt","bürgte","gebürgt","bürgte","bürge","bürgt",haben
@@ -2267,8 +2267,8 @@ rank,freq,Infinitiv,Unreg,Trans,"Präsens_ich","Präsens_du","Präsens_er, sie, 
 11734,260,funkeln,"","",funkle,funkelst,funkelt,funkelte,gefunkelt,funkelte,funkle,funkelt,haben
 11751,259,komponieren,"","",komponiere,komponierst,komponiert,komponierte,komponiert,komponierte,komponiere,komponiert,haben
 11757,259,entehren,"","",entehre,entehrst,entehrt,entehrte,entehrt,entehrte,entehr,entehrtet,haben
-11761,259,umwandeln,"","",umwandle,umwandelst,umwandelt,umwandelte,umwandelt,umwandelte,umwandle,umwandelt,haben
 11761,259,umwandeln,"","","wandle um","wandelst um","wandelt um","wandelte um",umgewandelt,"wandelte um","wandle um","wandelt um",haben
+11761,259,umwandeln,"","",umwandle,umwandelst,umwandelt,umwandelte,umwandelt,umwandelte,umwandle,umwandelt,haben
 11763,259,"gewährleisten","","","gewährleiste","gewährleistest","gewährleistet","gewährleistete","gewährleistet","gewährleistete","gewährleist","gewährleistet",haben
 11767,259,nachsitzen,"","","sitze nach","sitzt nach","sitzt nach","saß nach",nachgesessen,"säße nach","sitz nach","sitzt nach",haben
 11774,258,"erträumen","","","erträume","erträumst","erträumt","erträumte","erträumt","erträumte","erträum","erträumt",haben
@@ -2284,8 +2284,8 @@ rank,freq,Infinitiv,Unreg,Trans,"Präsens_ich","Präsens_du","Präsens_er, sie, 
 11919,253,patschen,"","",patsche,patschst,patscht,patschte,gepatscht,patschte,patsch,patscht,haben
 11932,253,"ankämpfen","","","kämpfe an","kämpfst an","kämpft an","kämpfte an","angekämpft","kämpfte an","kämpf an","kämpft an",haben
 11934,253,"verkörpern","","","verkörpere","verkörperst","verkörpert","verkörperte","verkörpert","verkörperte","verkörper","verkörpert",haben
-11935,253,abschieben,"","","schiebe ab","schiebst ab","schiebt ab","schob ab",abgeschoben,"schöbe ab","schiebe ab","schiebt ab",sein
 11935,253,abschieben,"",X,"schiebe ab","schiebst ab","schiebt ab","schob ab",abgeschoben,"schöbe ab","schiebe ab","schiebt ab",haben
+11935,253,abschieben,"","","schiebe ab","schiebst ab","schiebt ab","schob ab",abgeschoben,"schöbe ab","schiebe ab","schiebt ab",sein
 11942,252,"würfeln","","","würfle","würfelst","würfelt","würfelte","gewürfelt","würfelte","würfle","würfelt",haben
 11947,252,schildern,"","",schildere,schilderst,schildert,schilderte,geschildert,schilderte,schildere,schildert,haben
 11958,252,postieren,"","",postiere,postierst,postiert,postierte,postiert,postierte,postier,postiert,haben
@@ -2385,8 +2385,8 @@ rank,freq,Infinitiv,Unreg,Trans,"Präsens_ich","Präsens_du","Präsens_er, sie, 
 12797,226,anzweifeln,"","","zweifle an","zweifelst an","zweifelt an","zweifelte an",angezweifelt,"zweifelte an","zweifle an","zweifelt an",haben
 12803,226,einstufen,"","","stufe ein","stufst ein","stuft ein","stufte ein",eingestuft,"stufte ein","stufe ein","stuft ein",haben
 12818,226,erschweren,"","",erschwere,erschwerst,erschwert,erschwerte,erschwert,erschwerte,erschwer,erschwert,haben
-12829,225,"überführen","","","führe über","führst über","führt über","führte über","übergeführt","führte über","führ über","führt über",haben
 12829,225,"überführen","","","überführe","überführst","überführt","überführte","überführt","überführte","überführ","überführt",haben
+12829,225,"überführen","","","führe über","führst über","führt über","führte über","übergeführt","führte über","führ über","führt über",haben
 12839,225,vertiefen,"","",vertiefe,vertiefst,vertieft,vertiefte,vertieft,vertiefte,vertief,vertieft,haben
 12846,225,fackeln,"","",fackele,fackelst,fackelt,fackelte,gefackelt,fackelte,fackel,fackelt,haben
 12859,225,beherbergen,"","",beherberge,beherbergst,beherbergt,beherbergte,beherbergt,beherbergte,beherberg,beherbergt,haben
@@ -2423,8 +2423,8 @@ rank,freq,Infinitiv,Unreg,Trans,"Präsens_ich","Präsens_du","Präsens_er, sie, 
 13074,220,vermerken,"","",vermerke,vermerkst,vermerkt,vermerkte,vermerkt,vermerkte,vermerk,vermerkt,haben
 13077,219,entladen,"","",entlade,"entlädst","entlädt",entlud,entladen,"entlüde",entlad,entladet,haben
 13096,219,"vergöttern","","","vergöttere","vergötterst","vergöttert","vergötterte","vergöttert","vergötterte","vergötter","vergöttert",haben
-13124,218,stiefeln,"","",stiefele,stiefelst,stiefelt,stiefelte,gestiefelt,stiefelte,stiefele,stiefelt,haben
 13124,218,stiefeln,"","",stiefle,stiefelst,stiefelt,stiefelte,gestiefelt,stiefelte,stiefle,stiefelt,sein
+13124,218,stiefeln,"","",stiefele,stiefelst,stiefelt,stiefelte,gestiefelt,stiefelte,stiefele,stiefelt,haben
 13126,218,abhaken,"","","hake ab","hakst ab","hakt ab","hakte ab",abgehakt,"hakte ab","hak ab","hakt ab",haben
 13128,218,einwerfen,"","","werfe ein","wirfst ein","wirft ein","warf ein",eingeworfen,"würfe ein","wirf ein","werft ein",haben
 13137,218,tasten,"","",taste,tastest,tastet,tastete,getastet,tastete,tast,tastet,haben
@@ -2480,8 +2480,8 @@ rank,freq,Infinitiv,Unreg,Trans,"Präsens_ich","Präsens_du","Präsens_er, sie, 
 13682,204,kribbeln,"","",kribble,kribbelst,kribbelt,kribbelte,gekribbelt,kribbelte,kribble,kribbelt,haben
 13693,204,ausfragen,"","","frage aus","fragst aus","fragt aus","fragte aus",ausgefragt,"fragte aus","frag aus","fragt aus",haben
 13698,204,dichtmachen,"","","mache dicht","machst dicht","macht dicht","machte dicht",dichtgemacht,"machte dicht","mach dicht","macht dicht",haben
-13703,204,umschreiben,"","","schreibe um","schreibst um","schreibt um","schrieb um",umgeschrieben,"schriebe um","schreib um","schreibt um",haben
 13703,204,umschreiben,"","",umschreibe,umschreibst,umschreibt,umschrieb,umschrieben,umschriebe,umschreibe,umschreibt,haben
+13703,204,umschreiben,"","","schreibe um","schreibst um","schreibt um","schrieb um",umgeschrieben,"schriebe um","schreib um","schreibt um",haben
 13715,204,ochsen,"","",ochse,ochst,ochst,ochste,geochst,ochste,ochs,ochst,haben
 13718,203,"eindämmen","","","dämme ein","dämmst ein","dämmt ein","dämmte ein","eingedämmt","dämmte ein","dämm ein","dämmt ein",haben
 13719,203,anbinden,"","","binde an","bindest an","bindet an","band an",angebunden,"bände an","bind an","bindet an",haben
@@ -2621,8 +2621,8 @@ rank,freq,Infinitiv,Unreg,Trans,"Präsens_ich","Präsens_du","Präsens_er, sie, 
 15127,175,annullieren,"","",annulliere,annullierst,annulliert,annullierte,annulliert,annullierte,annulliere,annulliert,haben
 15133,175,aktualisieren,"",X,aktualisiere,aktualisierst,aktualisiert,aktualisierte,aktualisiert,aktualisierte,aktualisiere,aktualisiert,haben
 15145,175,lichten,"","",lichte,lichtest,lichtet,lichtete,gelichtet,lichtete,licht,lichtet,haben
-15161,175,"überkommen","","","komme über","kommst über","kommt über","kam über","übergekommen","käme über","komm über","kommt über",sein
 15161,175,"überkommen","","","überkomme","überkommst","überkommt","überkam","überkommen","überkäme","überkomme","überkommt",haben
+15161,175,"überkommen","","","komme über","kommst über","kommt über","kam über","übergekommen","käme über","komm über","kommt über",sein
 15167,174,abbezahlen,"","","bezahle ab","bezahlst ab","bezahlt ab","bezahlte ab",abbezahlt,"bezahlte ab","bezahl ab","bezahlt ab",haben
 15198,174,rupfen,"","",rupfe,rupfst,rupft,rupfte,gerupft,rupfte,rupf,rupft,haben
 15219,174,verbleiben,"","",verbleibe,verbleibst,verbleibt,verblieb,verblieben,verbliebe,verbleibe,verbleibt,sein
@@ -2731,8 +2731,8 @@ rank,freq,Infinitiv,Unreg,Trans,"Präsens_ich","Präsens_du","Präsens_er, sie, 
 16245,157,kontakten,"","",kontakte,kontaktest,kontaktet,kontaktete,kontaktet,kontaktete,kontakte,kontaktet,haben
 16274,157,verschmutzen,"","",verschmutze,verschmutzt,verschmutzt,verschmutzte,verschmutzt,verschmutzte,verschmutze,verschmutzt,haben
 16277,157,bereisen,"","",bereise,bereist,bereist,bereiste,bereist,bereiste,bereis,bereist,haben
-16284,156,"überwiegen","","","wiege über","wiegst über","wiegt über","wog über","übergewogen","wöge über","wieg über","wiegt über",haben
 16284,156,"überwiegen","","","überwiege","überwiegst","überwiegt","überwog","überwogen","überwöge","überwieg","überwiegt",haben
+16284,156,"überwiegen","","","wiege über","wiegst über","wiegt über","wog über","übergewogen","wöge über","wieg über","wiegt über",haben
 16297,156,durchlassen,"","","lasse durch","lässt durch","lässt durch","ließ durch",durchgelassen,"ließe durch","lasse durch","lasst durch",haben
 16302,156,hintreten,"","","trete hin","trittst hin","tritt hin","trat hin",hingetreten,"träte hin","tritt hin","tretet hin",haben
 16306,156,projizieren,"","",projiziere,projizierst,projiziert,projizierte,projiziert,projizierte,projiziere,projiziert,haben
@@ -2846,8 +2846,8 @@ rank,freq,Infinitiv,Unreg,Trans,"Präsens_ich","Präsens_du","Präsens_er, sie, 
 17495,140,schockieren,"","",schockiere,schockierst,schockiert,schockierte,schockiert,schockierte,schockiere,schockiert,haben
 17497,140,anlaufen,"","","laufe an","läufst an","läuft an","lief an",angelaufen,"liefe an","lauf an","lauft an",sein
 17524,140,aufschnappen,"","","schnappe auf","schnappst auf","schnappt auf","schnappte auf",aufgeschnappt,"schnappte auf","schnappe auf","schnappt auf",haben
-17543,140,umfassen,"","","fasse um","fasst um","fasst um","fasste um",umgefasst,"fasste um","fasse um","fasst um",haben
 17543,140,umfassen,"","",umfasse,umfasst,umfasst,umfasste,umfasst,umfasste,umfasse,umfasst,haben
+17543,140,umfassen,"","","fasse um","fasst um","fasst um","fasste um",umgefasst,"fasste um","fasse um","fasst um",haben
 17553,140,"erröten","","","erröte","errötest","errötet","errötete","errötet","errötete","erröte","errötet",sein
 17559,139,"zunähen","","","nähe zu","nähst zu","näht zu","nähte zu","zugenäht","nähte zu","nähe zu","näht zu",haben
 17581,139,spreizen,"","",spreize,spreizt,spreizt,spreizte,gespreizt,spreizte,spreize,spreizt,haben
@@ -2860,13 +2860,13 @@ rank,freq,Infinitiv,Unreg,Trans,"Präsens_ich","Präsens_du","Präsens_er, sie, 
 17674,138,festigen,"","",festige,festigst,festigt,festigte,gefestigt,festigte,festige,festigt,haben
 17675,138,verlernen,"","",verlerne,verlernst,verlernt,verlernte,verlernt,verlernte,verlern,verlernt,haben
 17680,138,schlummern,"","",schlummere,schlummerst,schlummert,schlummerte,geschlummert,schlummerte,schlummere,schlummert,haben
-17699,138,verkohlen,"","",verkohle,verkohlst,verkohlt,verkohlte,verkohlt,verkohlte,verkohl,verkohlt,haben
 17699,138,verkohlen,"","",verkohle,verkohlst,verkohlt,verkohlte,verkohlt,verkohlte,verkohl,verkohlt,sein
+17699,138,verkohlen,"","",verkohle,verkohlst,verkohlt,verkohlte,verkohlt,verkohlte,verkohl,verkohlt,haben
 17703,138,verkleinern,"","",verkleinere,verkleinerst,verkleinert,verkleinerte,verkleinert,verkleinerte,verkleinere,verkleinert,haben
 17727,137,"bücken","","","bücke","bückst","bückt","bückte","gebückt","bückte","bücke","bückt",haben
 17747,137,erachten,"","",erachte,erachtest,erachtet,erachtete,erachtet,erachtete,eracht,erachtet,haben
-17768,137,umfahren,"","","fahre um","fährst um","fährt um","fuhr um",umgefahren,"führe um","fahr um","fahrt um",haben
 17768,137,umfahren,"","",umfahre,"umfährst","umfährt",umfuhr,umfahren,"umführe",umfahre,umfahrt,haben
+17768,137,umfahren,"","","fahre um","fährst um","fährt um","fuhr um",umgefahren,"führe um","fahr um","fahrt um",haben
 17774,137,aufrichten,"","","richte auf","richtest auf","richtet auf","richtete auf",aufgerichtet,"richtete auf","richte auf","richtet auf",haben
 17775,137,zersetzen,"","",zersetze,zersetzt,zersetzt,zersetzte,zersetzt,zersetzte,zersetz,zersetzt,haben
 17777,137,turnen,"","",turne,turnst,turnt,turnte,geturnt,turnte,turne,turnt,sein

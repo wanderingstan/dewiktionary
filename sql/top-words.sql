@@ -1,6 +1,5 @@
 /* Get frequent words */
 
--- EXPLAIN QUERY PLAN
 --EXPLAIN QUERY PLAN
 SELECT
   top.rank,
@@ -14,7 +13,7 @@ WHERE
 	w1.ROWID = (
 		SELECT MIN(w2.ROWID)
 		FROM words AS w2
-		WHERE w2.Wort = w1.Wort
+		WHERE w2.Wort = top.word COLLATE NOCASE
 	)
 ORDER BY rank ASC
 ;
