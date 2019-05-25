@@ -8,7 +8,7 @@ Most recent results are in `csv` directory.
 
 - Top verbs 
   - [CSV](https://github.com/wanderingstan/dewiktionary/blob/master/csv/top-verbs.csv) 
-  - [Google Sheet](https://docs.google.com/spreadsheets/d/18jX0xBAx_XoUY4Uufdo1m1rLBQAJL9Mmd9I-0oc6d_g/edit#gid=0)
+  - [Google Sheet](https://docs.google.com/spreadsheets/d/18jX0xBAx_XoUY4Uufdo1m1rLBQAJL9Mmd9I-0oc6d_g/edit?usp=sharing)
 - Top nouns detailed
   - [CSV](https://github.com/wanderingstan/dewiktionary/blob/master/csv/top-nouns-detailed.csv) 
 - Top verbs detailed
