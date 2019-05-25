@@ -5,11 +5,14 @@ SELECT
   top.rank,
   top.freq,
   w1.*,
-  "https://commons.wikimedia.org/wiki/Special:FilePath/" || w1.Hörbeispiele AS pronunciation_url
+  CASE w1.Hörbeispiele
+    WHEN "" THEN ""
+    ELSE "https://commons.wikimedia.org/wiki/Special:FilePath/" || w1.Hörbeispiele
+  END pronunciation_url
 FROM
   top  JOIN words AS w1 ON w1.Wort=top.word
 WHERE
-	-- If word has multiple meanings, take first listed one
+	-- If word has multiple meanings, take first listed one, preferring non-nouns
 	w1.ROWID = (
 		SELECT w2.ROWID
 		FROM words AS w2
