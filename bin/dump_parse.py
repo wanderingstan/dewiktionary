@@ -91,7 +91,7 @@ german_verb_fields_sql_declarations = ",".join(
     map('"{0}" TEXT'.format, german_verb_fields)) # Put in SQL form, with text data type
 c.execute('''CREATE TABLE IF NOT EXISTS verbs ("Infinitiv" TEXT, {})'''.format(
     german_verb_fields_sql_declarations))
-c.execute('''CREATE INDEX verbs_index ON nouns("Infinitiv")''')
+c.execute('''CREATE INDEX verbs_index ON verbs("Infinitiv")''')
 
 # Create noun table
 if args.force:

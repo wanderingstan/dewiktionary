@@ -18,5 +18,5 @@ subprocess.run(
     ["bash", "./top/create_top_table.sh", db_file])
 
 # Populate database
-subprocess.run(
-    ["python", "./bin/dump_parse.py", "--force", "--dump", "dumps/dewiktionary-latest-pages-articles.xml", "--db", db_file])
+# subprocess.run(
+#     ["python", "./bin/dump_parse.py", "--force", "--dump", "dumps/dewiktionary-latest-pages-articles.xml", "--db", db_file])
