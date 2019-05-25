@@ -1,10 +1,16 @@
 import os
 import subprocess
+import argparse
 
-debug = True
+parser = argparse.ArgumentParser(
+    description='Do everything with German Wiktionary.')
+parser.add_argument('--debug', action='store_true',
+                    help='Use smaller debug file for quick testing and debugging')
+args = parser.parse_args()
 
-db_file = './db/deutsch.sqlite' if not debug else './db/deutsch-test.sqlite'
-dump_file = './dumps/dewiktionary-latest-pages-articles.xml' if not debug else './dumps/dewiktionary-latest-pages-articles-test.xml'
+
+db_file = './db/deutsch.sqlite' if not args.debug else './db/deutsch-test.sqlite'
+dump_file = './dumps/dewiktionary-latest-pages-articles.xml' if not args.debug else './dumps/dewiktionary-latest-pages-articles-test.xml'
 
 print ('Database: {}'.format(db_file))
 print ('Wiktionary Dump: {}'.format(dump_file))
