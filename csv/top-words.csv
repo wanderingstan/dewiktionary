@@ -48,7 +48,7 @@ rank,freq,Wort,Wortart,"Hörbeispiele",Synonyme,"Gegenwörter","Übersetzung",pr
 47,276809,schon,Adverb,De-schon.ogg,NYI,NYI,already,https://commons.wikimedia.org/wiki/Special:FilePath/De-schon.ogg
 48,275361,als,Konjunktion,De-als.ogg,NYI,NYI,"than, when, as",https://commons.wikimedia.org/wiki/Special:FilePath/De-als.ogg
 49,274768,jetzt,Adverb,De-jetzt.ogg,NYI,NYI,"now, right now",https://commons.wikimedia.org/wiki/Special:FilePath/De-jetzt.ogg
-50,271291,Mal,"Abkürzung","",NYI,NYI,"",""
+50,271291,mal,Adverb,De-mal.ogg,NYI,NYI,times,https://commons.wikimedia.org/wiki/Special:FilePath/De-mal.ogg
 51,269701,aus,"Präposition",de-aus.ogg,NYI,NYI,"from, out of, from, of",https://commons.wikimedia.org/wiki/Special:FilePath/de-aus.ogg
 52,268714,um,"Präposition",De-um.ogg,NYI,NYI,"around, about, round, at, by, about, for, to, after",https://commons.wikimedia.org/wiki/Special:FilePath/De-um.ogg
 53,264865,dann,Adverb,De-dann.ogg,NYI,NYI,then,https://commons.wikimedia.org/wiki/Special:FilePath/De-dann.ogg
@@ -879,7 +879,7 @@ rank,freq,Wort,Wortart,"Hörbeispiele",Synonyme,"Gegenwörter","Übersetzung",pr
 916,7508,Agent,Substantiv,De-Agent.ogg,NYI,NYI,"agent, spy",https://commons.wikimedia.org/wiki/Special:FilePath/De-Agent.ogg
 917,7485,Paul,Vorname,De-Paul.ogg,NYI,NYI,Paul,https://commons.wikimedia.org/wiki/Special:FilePath/De-Paul.ogg
 918,7454,feiern,Verb,De-feiern.ogg,NYI,NYI,celebrate,https://commons.wikimedia.org/wiki/Special:FilePath/De-feiern.ogg
-920,7427,Bar,"Abkürzung","",NYI,NYI,"",""
+920,7427,bar,Adjektiv,De-bar.ogg,NYI,NYI,bare,https://commons.wikimedia.org/wiki/Special:FilePath/De-bar.ogg
 921,7424,Beispiel,Substantiv,De-Beispiel.ogg,NYI,NYI,"example, instance, model",https://commons.wikimedia.org/wiki/Special:FilePath/De-Beispiel.ogg
 922,7420,"schützen",Verb,"De-schützen.ogg",NYI,NYI,protect,"https://commons.wikimedia.org/wiki/Special:FilePath/De-schützen.ogg"
 923,7405,weile,"Konjugierte Form","",NYI,NYI,"",""
@@ -1169,7 +1169,7 @@ rank,freq,Wort,Wortart,"Hörbeispiele",Synonyme,"Gegenwörter","Übersetzung",pr
 1226,5371,klug,Adjektiv,De-klug.ogg,NYI,NYI,"clever, intelligent, smart, judicious, wise, prudent",https://commons.wikimedia.org/wiki/Special:FilePath/De-klug.ogg
 1227,5367,Unsinn,Substantiv,De-Unsinn.ogg,NYI,NYI,nonsense,https://commons.wikimedia.org/wiki/Special:FilePath/De-Unsinn.ogg
 1228,5363,stopp,"Konjugierte Form","",NYI,NYI,"",""
-1229,5356,Pro,"Abkürzung","",NYI,NYI,"",""
+1229,5356,pro,"Präposition","",NYI,NYI,per,""
 1230,5354,untersuchen,Verb,De-untersuchen.ogg,NYI,NYI,investigate,https://commons.wikimedia.org/wiki/Special:FilePath/De-untersuchen.ogg
 1231,5349,richten,Verb,De-richten.ogg,NYI,NYI,"straighten, direct, point, fix, sort out, prepare, judge, decide",https://commons.wikimedia.org/wiki/Special:FilePath/De-richten.ogg
 1232,5334,Lied,Substantiv,De-Lied.ogg,NYI,NYI,song,https://commons.wikimedia.org/wiki/Special:FilePath/De-Lied.ogg
@@ -1364,7 +1364,7 @@ rank,freq,Wort,Wortart,"Hörbeispiele",Synonyme,"Gegenwörter","Übersetzung",pr
 1437,4448,Zeitpunkt,Substantiv,De-Zeitpunkt.ogg,NYI,NYI,moment,https://commons.wikimedia.org/wiki/Special:FilePath/De-Zeitpunkt.ogg
 1438,4432,Lord,Substantiv,De-Lord.ogg,NYI,NYI,lord,https://commons.wikimedia.org/wiki/Special:FilePath/De-Lord.ogg
 1439,4426,schwul,Adjektiv,De-schwul.ogg,NYI,NYI,"faggot, gay",https://commons.wikimedia.org/wiki/Special:FilePath/De-schwul.ogg
-1440,4425,grad,"Abkürzung","",NYI,NYI,"",""
+1440,4425,grad,Adverb,"",NYI,NYI,"",""
 1441,4418,fassen,Verb,De-fassen.ogg,NYI,NYI,grasp,https://commons.wikimedia.org/wiki/Special:FilePath/De-fassen.ogg
 1442,4412,geheim,Adjektiv,De-geheim.ogg,NYI,NYI,"secret, confidential, hidden",https://commons.wikimedia.org/wiki/Special:FilePath/De-geheim.ogg
 1443,4410,Oma,Substantiv,De-Oma.ogg,NYI,NYI,"grandmother, granny, gran",https://commons.wikimedia.org/wiki/Special:FilePath/De-Oma.ogg
@@ -1566,7 +1566,7 @@ rank,freq,Wort,Wortart,"Hörbeispiele",Synonyme,"Gegenwörter","Übersetzung",pr
 1656,3695,"betrügen",Verb,"De-betrügen.ogg",NYI,NYI,"betray, deceive, defraud, fool, trick, delude, befool, cheat","https://commons.wikimedia.org/wiki/Special:FilePath/De-betrügen.ogg"
 1657,3692,Proben,"Deklinierte Form",De-Proben.ogg,NYI,NYI,"",https://commons.wikimedia.org/wiki/Special:FilePath/De-Proben.ogg
 1658,3691,zweimal,Wiederholungszahlwort,De-zweimal.ogg,NYI,NYI,twice,https://commons.wikimedia.org/wiki/Special:FilePath/De-zweimal.ogg
-1659,3687,Opa,"Abkürzung","",NYI,NYI,"",""
+1659,3687,Opa,Substantiv,De-Opa.ogg,NYI,NYI,"grandad, poppi, grandpa, grandfather",https://commons.wikimedia.org/wiki/Special:FilePath/De-Opa.ogg
 1661,3685,Autos,"Deklinierte Form",De-at-Autos.ogg,NYI,NYI,"",https://commons.wikimedia.org/wiki/Special:FilePath/De-at-Autos.ogg
 1662,3683,Erinnerung,Substantiv,De-Erinnerung.ogg,NYI,NYI,"memory, recall, remembrance, recollection, reminder",https://commons.wikimedia.org/wiki/Special:FilePath/De-Erinnerung.ogg
 1663,3681,"mächtig",Adjektiv,"De-mächtig.oga",NYI,NYI,"powerful, mighty, thick, master","https://commons.wikimedia.org/wiki/Special:FilePath/De-mächtig.oga"
@@ -1603,7 +1603,7 @@ rank,freq,Wort,Wortart,"Hörbeispiele",Synonyme,"Gegenwörter","Übersetzung",pr
 1702,3561,"berühmt",Adjektiv,"De-berühmt.ogg",NYI,NYI,"famous, celebrated, renowned","https://commons.wikimedia.org/wiki/Special:FilePath/De-berühmt.ogg"
 1703,3561,peinlich,Adjektiv,De-peinlich.ogg,NYI,NYI,"awkward, embarrassing, particularly, meticulously",https://commons.wikimedia.org/wiki/Special:FilePath/De-peinlich.ogg
 1704,3559,College,Substantiv,De-College.ogg,NYI,NYI,college,https://commons.wikimedia.org/wiki/Special:FilePath/De-College.ogg
-1705,3555,Dan,"Abkürzung","",NYI,NYI,"",""
+1705,3555,Dan,Substantiv,"",NYI,NYI,"",""
 1706,3555,bestrafen,Verb,De-bestrafen.ogg,NYI,NYI,punish,https://commons.wikimedia.org/wiki/Special:FilePath/De-bestrafen.ogg
 1707,3554,womit,Pronominaladverb,"",NYI,NYI,"whereby, with what",""
 1708,3547,Schande,Substantiv,De-Schande.ogg,NYI,NYI,"disgrace, shame",https://commons.wikimedia.org/wiki/Special:FilePath/De-Schande.ogg
@@ -2727,7 +2727,7 @@ rank,freq,Wort,Wortart,"Hörbeispiele",Synonyme,"Gegenwörter","Übersetzung",pr
 2972,1758,"schütze","Konjugierte Form","",NYI,NYI,"",""
 2973,1756,klettern,Verb,De-klettern.ogg,NYI,NYI,climb,https://commons.wikimedia.org/wiki/Special:FilePath/De-klettern.ogg
 2974,1756,eintreffen,Verb,"",NYI,NYI,"arrive, happen, come true",""
-2975,1756,Ari,"Abkürzung","",NYI,NYI,"",""
+2975,1756,Ari,Vorname,"",NYI,NYI,"",""
 2976,1756,Lehrerin,Substantiv,De-Lehrerin.ogg,NYI,NYI,"teacher, instructor, tutor",https://commons.wikimedia.org/wiki/Special:FilePath/De-Lehrerin.ogg
 2978,1754,Alexander,Vorname,"De-at Alexander.ogg",NYI,NYI,"","https://commons.wikimedia.org/wiki/Special:FilePath/De-at Alexander.ogg"
 2980,1752,Farm,Substantiv,De-Farm.ogg,NYI,NYI,farm,https://commons.wikimedia.org/wiki/Special:FilePath/De-Farm.ogg
@@ -3033,7 +3033,7 @@ rank,freq,Wort,Wortart,"Hörbeispiele",Synonyme,"Gegenwörter","Übersetzung",pr
 3326,1512,basieren,Verb,De-basieren.ogg,NYI,NYI,"be based on, be founded on",https://commons.wikimedia.org/wiki/Special:FilePath/De-basieren.ogg
 3327,1512,Museum,Substantiv,De-Museum.ogg,NYI,NYI,museum,https://commons.wikimedia.org/wiki/Special:FilePath/De-Museum.ogg
 3328,1511,Tricks,"Deklinierte Form","",NYI,NYI,"",""
-3329,1511,Ex,"Abkürzung","",NYI,NYI,"",""
+3329,1511,ex,"Konjugierte Form","",NYI,NYI,"",""
 3330,1511,nirgends,Adverb,De-nirgends.ogg,NYI,NYI,nowhere,https://commons.wikimedia.org/wiki/Special:FilePath/De-nirgends.ogg
 3331,1510,"Dämon",Substantiv,"De-Dämon.ogg",NYI,NYI,"demon, daemon","https://commons.wikimedia.org/wiki/Special:FilePath/De-Dämon.ogg"
 3332,1508,Spanien,Toponym,De-Spanien.ogg,NYI,NYI,Spain,https://commons.wikimedia.org/wiki/Special:FilePath/De-Spanien.ogg
@@ -3084,7 +3084,7 @@ rank,freq,Wort,Wortart,"Hörbeispiele",Synonyme,"Gegenwörter","Übersetzung",pr
 3385,1481,soeben,Adverb,"",NYI,NYI,"just now",""
 3386,1481,"Ausrüstung",Substantiv,"De-Ausrüstung.ogg",NYI,NYI,"outfit, equipment, gear","https://commons.wikimedia.org/wiki/Special:FilePath/De-Ausrüstung.ogg"
 3388,1480,Lieferung,Substantiv,De-Lieferung.ogg,NYI,NYI,delivery,https://commons.wikimedia.org/wiki/Special:FilePath/De-Lieferung.ogg
-3389,1480,cAMP,"Abkürzung","",NYI,NYI,cAMP,""
+3389,1480,Camp,Substantiv,"",NYI,NYI,camp,""
 3390,1478,erziehen,Verb,De-erziehen.ogg,NYI,NYI,educate,https://commons.wikimedia.org/wiki/Special:FilePath/De-erziehen.ogg
 3391,1478,begriff,"Konjugierte Form",De-begriff.ogg,NYI,NYI,"",https://commons.wikimedia.org/wiki/Special:FilePath/De-begriff.ogg
 3392,1477,Ruth,Vorname,De-Ruth.ogg,NYI,NYI,Ruth,https://commons.wikimedia.org/wiki/Special:FilePath/De-Ruth.ogg
@@ -3405,7 +3405,7 @@ rank,freq,Wort,Wortart,"Hörbeispiele",Synonyme,"Gegenwörter","Übersetzung",pr
 3745,1305,"verbünden",Verb,"De-verbünden.ogg",NYI,NYI,ally,"https://commons.wikimedia.org/wiki/Special:FilePath/De-verbünden.ogg"
 3746,1303,gefickt,"Partizip II",De-gefickt.ogg,NYI,NYI,"",https://commons.wikimedia.org/wiki/Special:FilePath/De-gefickt.ogg
 3747,1303,geistig,Adjektiv,"",NYI,NYI,"mental, intellectual",""
-3748,1303,deins,"Abkürzung","",NYI,NYI,"",""
+3748,1303,deins,"Deklinierte Form","",NYI,NYI,"",""
 3749,1303,treue,"Deklinierte Form","",NYI,NYI,"",""
 3751,1300,Mona,Vorname,"De-at Mona.ogg",NYI,NYI,"","https://commons.wikimedia.org/wiki/Special:FilePath/De-at Mona.ogg"
 3752,1300,Moskau,Toponym,De-Moskau.ogg,NYI,NYI,Moscow,https://commons.wikimedia.org/wiki/Special:FilePath/De-Moskau.ogg
@@ -3955,7 +3955,7 @@ rank,freq,Wort,Wortart,"Hörbeispiele",Synonyme,"Gegenwörter","Übersetzung",pr
 4414,1038,piepen,Verb,"",NYI,NYI,"",""
 4415,1038,Dezember,Substantiv,De-Dezember.ogg,NYI,NYI,December,https://commons.wikimedia.org/wiki/Special:FilePath/De-Dezember.ogg
 4416,1036,angesichts,"Präposition",De-angesichts.ogg,NYI,NYI,"in view of",https://commons.wikimedia.org/wiki/Special:FilePath/De-angesichts.ogg
-4418,1036,min,"Abkürzung","",NYI,NYI,"",""
+4418,1036,Min,Substantiv,"",NYI,NYI,"",""
 4419,1036,Lunge,Substantiv,De-Lunge.ogg,NYI,NYI,lung,https://commons.wikimedia.org/wiki/Special:FilePath/De-Lunge.ogg
 4420,1036,schwingen,Verb,De-schwingen.ogg,NYI,NYI,"swing, oscillate",https://commons.wikimedia.org/wiki/Special:FilePath/De-schwingen.ogg
 4421,1035,Gedicht,Substantiv,De-Gedicht.ogg,NYI,NYI,poem,https://commons.wikimedia.org/wiki/Special:FilePath/De-Gedicht.ogg
@@ -5200,7 +5200,7 @@ rank,freq,Wort,Wortart,"Hörbeispiele",Synonyme,"Gegenwörter","Übersetzung",pr
 5945,694,"Verdächtiger","Deklinierte Form","",NYI,NYI,"",""
 5946,694,Detroit,Toponym,De-Detroit.ogg,NYI,NYI,Detroit,https://commons.wikimedia.org/wiki/Special:FilePath/De-Detroit.ogg
 5949,694,Ausstellung,Substantiv,De-Ausstellung.ogg,NYI,NYI,"exhibition, exposition, issue",https://commons.wikimedia.org/wiki/Special:FilePath/De-Ausstellung.ogg
-5950,694,Gen,"Abkürzung","",NYI,NYI,Gen.,""
+5950,694,gen,"Präposition","",NYI,NYI,towards,""
 5952,693,"enthüllen",Verb,"De-enthüllen.ogg",NYI,NYI,"reveal, uncover, unveil","https://commons.wikimedia.org/wiki/Special:FilePath/De-enthüllen.ogg"
 5954,693,Fee,Substantiv,De-Fee.ogg,NYI,NYI,"fay, fairy, pixy, pixie",https://commons.wikimedia.org/wiki/Special:FilePath/De-Fee.ogg
 5955,693,Fahne,Substantiv,De-Fahne.ogg,NYI,NYI,flag,https://commons.wikimedia.org/wiki/Special:FilePath/De-Fahne.ogg
@@ -5482,7 +5482,7 @@ rank,freq,Wort,Wortart,"Hörbeispiele",Synonyme,"Gegenwörter","Übersetzung",pr
 6290,646,geschlossen,Adjektiv,De-geschlossen.ogg,NYI,NYI,"closed, united, unanimous, well-rounded, complete",https://commons.wikimedia.org/wiki/Special:FilePath/De-geschlossen.ogg
 6291,645,Herrschaft,Substantiv,De-Herrschaft.ogg,NYI,NYI,"lordship, reign, rule, domination, control, dominion",https://commons.wikimedia.org/wiki/Special:FilePath/De-Herrschaft.ogg
 6292,645,Babylon,Toponym,De-Babylon.ogg,NYI,NYI,Babylon,https://commons.wikimedia.org/wiki/Special:FilePath/De-Babylon.ogg
-6293,645,Dax,"Abkürzung","",NYI,NYI,"",""
+6293,645,Dax,Substantiv,"",NYI,NYI,"",""
 6294,645,"München",Toponym,"De-München 2.oga",NYI,NYI,Munich,"https://commons.wikimedia.org/wiki/Special:FilePath/De-München 2.oga"
 6295,645,beistehen,Verb,De-beistehen.ogg,NYI,NYI,assist,https://commons.wikimedia.org/wiki/Special:FilePath/De-beistehen.ogg
 6296,644,"füreinander",Adverb,"De-füreinander.ogg",NYI,NYI,"each other, one another","https://commons.wikimedia.org/wiki/Special:FilePath/De-füreinander.ogg"
@@ -5559,7 +5559,7 @@ rank,freq,Wort,Wortart,"Hörbeispiele",Synonyme,"Gegenwörter","Übersetzung",pr
 6386,630,Gewahrsam,Substantiv,De-Gewahrsam.ogg,NYI,NYI,"detention, arrest, custody",https://commons.wikimedia.org/wiki/Special:FilePath/De-Gewahrsam.ogg
 6388,630,Vagina,Substantiv,De-Vagina.ogg,NYI,NYI,vagina,https://commons.wikimedia.org/wiki/Special:FilePath/De-Vagina.ogg
 6389,630,"Wälder","Deklinierte Form","De-Wälder.ogg",NYI,NYI,"","https://commons.wikimedia.org/wiki/Special:FilePath/De-Wälder.ogg"
-6390,629,GoA,"Abkürzung","",NYI,NYI,"",""
+6390,629,Goa,Toponym,De-Goa.ogg,NYI,NYI,Goa,https://commons.wikimedia.org/wiki/Special:FilePath/De-Goa.ogg
 6391,629,"hinüber",Adverb,"De-hinüber.ogg",NYI,NYI,"over, across","https://commons.wikimedia.org/wiki/Special:FilePath/De-hinüber.ogg"
 6393,629,"repräsentieren",Verb,"",NYI,NYI,represent,""
 6395,628,verbrannt,Adjektiv,De-verbrannt.ogg,NYI,NYI,"adust, burnt, burned",https://commons.wikimedia.org/wiki/Special:FilePath/De-verbrannt.ogg
@@ -7625,7 +7625,7 @@ rank,freq,Wort,Wortart,"Hörbeispiele",Synonyme,"Gegenwörter","Übersetzung",pr
 9006,383,Immobilien,"Deklinierte Form",De-at-Immobilien.ogg,NYI,NYI,"",https://commons.wikimedia.org/wiki/Special:FilePath/De-at-Immobilien.ogg
 9007,383,Adolf,Vorname,De-Adolf.ogg,NYI,NYI,Adolph,https://commons.wikimedia.org/wiki/Special:FilePath/De-Adolf.ogg
 9008,383,Adoption,Substantiv,De-Adoption.ogg,NYI,NYI,"adoption, affiliation",https://commons.wikimedia.org/wiki/Special:FilePath/De-Adoption.ogg
-9009,383,ASt,"Abkürzung","LL-Q188 (deu)-Frank C. Müller-ASt.wav",NYI,NYI,"","https://commons.wikimedia.org/wiki/Special:FilePath/LL-Q188 (deu)-Frank C. Müller-ASt.wav"
+9009,383,ast,"Konjugierte Form",De-ast.ogg,NYI,NYI,"",https://commons.wikimedia.org/wiki/Special:FilePath/De-ast.ogg
 9011,383,anfasst,"Konjugierte Form","",NYI,NYI,"",""
 9012,383,Schweinchen,Substantiv,"",NYI,NYI,"piggy, piglet",""
 9015,383,Chirurgie,Substantiv,De-Chirurgie.ogg,NYI,NYI,surgery,https://commons.wikimedia.org/wiki/Special:FilePath/De-Chirurgie.ogg
@@ -7818,7 +7818,7 @@ rank,freq,Wort,Wortart,"Hörbeispiele",Synonyme,"Gegenwörter","Übersetzung",pr
 9268,367,Zeh,Substantiv,De-Zeh.ogg,NYI,NYI,toe,https://commons.wikimedia.org/wiki/Special:FilePath/De-Zeh.ogg
 9270,367,strahl,"Konjugierte Form","",NYI,NYI,"",""
 9272,367,Rolf,Vorname,De-Rolf.ogg,NYI,NYI,Rolph,https://commons.wikimedia.org/wiki/Special:FilePath/De-Rolf.ogg
-9273,367,off,"Abkürzung","",NYI,NYI,"",""
+9273,367,Off,Substantiv,"",NYI,NYI,"",""
 9274,367,aufholen,Verb,"}}, {{Prät.",NYI,NYI,"catch up","https://commons.wikimedia.org/wiki/Special:FilePath/}}, {{Prät."
 9275,367,fickst,"Konjugierte Form","",NYI,NYI,"",""
 9276,367,Ausschuss,Substantiv,De-Ausschuss.ogg,NYI,NYI,"committee, scrap, reject, waste, exit wound",https://commons.wikimedia.org/wiki/Special:FilePath/De-Ausschuss.ogg
@@ -8912,7 +8912,7 @@ rank,freq,Wort,Wortart,"Hörbeispiele",Synonyme,"Gegenwörter","Übersetzung",pr
 10759,296,Schaum,Substantiv,De-Schaum.ogg,NYI,NYI,"foam, froth, lather, spume",https://commons.wikimedia.org/wiki/Special:FilePath/De-Schaum.ogg
 10760,296,"Hauptstraße",Eigenname,"De-Hauptstraße.ogg",NYI,NYI,"","https://commons.wikimedia.org/wiki/Special:FilePath/De-Hauptstraße.ogg"
 10761,296,Ferdinand,Vorname,De-Ferdinand.ogg,NYI,NYI,"Ferdinan, Ferdinand, Ferran, Ferrand",https://commons.wikimedia.org/wiki/Special:FilePath/De-Ferdinand.ogg
-10763,296,Cap,"Abkürzung","",NYI,NYI,"",""
+10763,296,Cap,Substantiv,"",NYI,NYI,cap,""
 10764,296,totschlagen,Verb,"",NYI,NYI,"",""
 10765,296,Favorit,Substantiv,De-Favorit.ogg,NYI,NYI,"",https://commons.wikimedia.org/wiki/Special:FilePath/De-Favorit.ogg
 10766,296,Versuchs,"Deklinierte Form",De-Versuchs.ogg,NYI,NYI,"",https://commons.wikimedia.org/wiki/Special:FilePath/De-Versuchs.ogg
@@ -9214,7 +9214,7 @@ rank,freq,Wort,Wortart,"Hörbeispiele",Synonyme,"Gegenwörter","Übersetzung",pr
 11164,280,Gebote,"Deklinierte Form",De-Gebote.ogg,NYI,NYI,"",https://commons.wikimedia.org/wiki/Special:FilePath/De-Gebote.ogg
 11166,280,Nathalie,Vorname,"",NYI,NYI,"",""
 11167,280,"röntgen",Verb,"De-röntgen.ogg",NYI,NYI,X-ray,"https://commons.wikimedia.org/wiki/Special:FilePath/De-röntgen.ogg"
-11168,280,His,"Abkürzung","",NYI,NYI,"",""
+11168,280,His,Substantiv,De-His.ogg,NYI,NYI,"B sharp",https://commons.wikimedia.org/wiki/Special:FilePath/De-His.ogg
 11169,280,Diebin,Substantiv,De-Diebin.ogg,NYI,NYI,thief,https://commons.wikimedia.org/wiki/Special:FilePath/De-Diebin.ogg
 11170,280,Minimum,Substantiv,De-Minimum.ogg,NYI,NYI,minimum,https://commons.wikimedia.org/wiki/Special:FilePath/De-Minimum.ogg
 11171,280,Taiwan,Toponym,"",NYI,NYI,Taiwan,""
@@ -9410,7 +9410,7 @@ rank,freq,Wort,Wortart,"Hörbeispiele",Synonyme,"Gegenwörter","Übersetzung",pr
 11423,270,gemischt,"Partizip II",De-gemischt.ogg,NYI,NYI,"",https://commons.wikimedia.org/wiki/Special:FilePath/De-gemischt.ogg
 11424,270,"überfällig",Adjektiv,"",NYI,NYI,"inopportune, late",""
 11425,270,"Außenposten",Substantiv,"",NYI,NYI,"",""
-11426,270,Pi,"Abkürzung","",NYI,NYI,"",""
+11426,270,Pi,Substantiv,De-Pi.ogg,NYI,NYI,pi,https://commons.wikimedia.org/wiki/Special:FilePath/De-Pi.ogg
 11427,270,Lasagne,Substantiv,De-Lasagne.ogg,NYI,NYI,lasagna,https://commons.wikimedia.org/wiki/Special:FilePath/De-Lasagne.ogg
 11428,270,Exempel,Substantiv,De-Exempel.ogg,NYI,NYI,example,https://commons.wikimedia.org/wiki/Special:FilePath/De-Exempel.ogg
 11429,270,"Tötung",Substantiv,"",NYI,NYI,killing,""
@@ -9793,7 +9793,7 @@ rank,freq,Wort,Wortart,"Hörbeispiele",Synonyme,"Gegenwörter","Übersetzung",pr
 11934,253,"verkörpern",Verb,"",NYI,NYI,"",""
 11935,253,abschieben,Verb,"}}, {{Prät.",NYI,NYI,"deport, dump, get rid of, shunt off, put the blame on, shift on, shift upon, shuffle off","https://commons.wikimedia.org/wiki/Special:FilePath/}}, {{Prät."
 11937,253,Pyramide,Substantiv,De-Pyramide.ogg,NYI,NYI,pyramid,https://commons.wikimedia.org/wiki/Special:FilePath/De-Pyramide.ogg
-11938,253,RAin,"Abkürzung","",NYI,NYI,"",""
+11938,253,Rain,Substantiv,"LL-Q188 (deu)-Michael Schoenitzer (MichaelSchoenitzer)-Rain.wav",NYI,NYI,balk,"https://commons.wikimedia.org/wiki/Special:FilePath/LL-Q188 (deu)-Michael Schoenitzer (MichaelSchoenitzer)-Rain.wav"
 11939,253,Barbecue,Substantiv,De-Barbecue.ogg,NYI,NYI,barbecue,https://commons.wikimedia.org/wiki/Special:FilePath/De-Barbecue.ogg
 11940,253,Anmut,Substantiv,De-Anmut.ogg,NYI,NYI,"beauty, grace, charm",https://commons.wikimedia.org/wiki/Special:FilePath/De-Anmut.ogg
 11941,252,"Gewässer",Substantiv,"De-Gewässer.OGG",NYI,NYI,"waterbody, waters","https://commons.wikimedia.org/wiki/Special:FilePath/De-Gewässer.OGG"
@@ -10194,7 +10194,7 @@ rank,freq,Wort,Wortart,"Hörbeispiele",Synonyme,"Gegenwörter","Übersetzung",pr
 12508,235,Verhauen,"Deklinierte Form","",NYI,NYI,"",""
 12510,235,Marken,Toponym,De-Marken.ogg,NYI,NYI,Marche,https://commons.wikimedia.org/wiki/Special:FilePath/De-Marken.ogg
 12511,235,wandel,"Konjugierte Form","",NYI,NYI,"",""
-12512,235,Mio,"Abkürzung","",NYI,NYI,"",""
+12512,235,Mio,Vorname,"",NYI,NYI,"",""
 12513,235,Todesangst,Substantiv,"LL-Q188 (deu)-Sebastian Wallroth-Todesangst.wav",NYI,NYI,"","https://commons.wikimedia.org/wiki/Special:FilePath/LL-Q188 (deu)-Sebastian Wallroth-Todesangst.wav"
 12518,235,Weber,Substantiv,De-Weber.OGG,NYI,NYI,weaver,https://commons.wikimedia.org/wiki/Special:FilePath/De-Weber.OGG
 12520,235,aufschieben,Verb,De-aufschieben.ogg,NYI,NYI,"push open, postpone, put off, delay",https://commons.wikimedia.org/wiki/Special:FilePath/De-aufschieben.ogg
@@ -12781,7 +12781,7 @@ rank,freq,Wort,Wortart,"Hörbeispiele",Synonyme,"Gegenwörter","Übersetzung",pr
 16243,157,"überrollen",Verb,"",NYI,NYI,"run over, go through, overshoot",""
 16244,157,"künstlerische","Deklinierte Form","",NYI,NYI,"",""
 16245,157,Kontakten,"Deklinierte Form","",NYI,NYI,"",""
-16246,157,Stasi,"Abkürzung",De-Stasi.ogg,NYI,NYI,Stasi,https://commons.wikimedia.org/wiki/Special:FilePath/De-Stasi.ogg
+16246,157,Stasi,Vorname,"",NYI,NYI,"",""
 16248,157,"Käfige","Deklinierte Form","",NYI,NYI,"",""
 16249,157,Wettrennen,Substantiv,"",NYI,NYI,"",""
 16254,157,gepisst,"Partizip II",De-gepisst.ogg,NYI,NYI,"",https://commons.wikimedia.org/wiki/Special:FilePath/De-gepisst.ogg
@@ -14254,7 +14254,7 @@ rank,freq,Wort,Wortart,"Hörbeispiele",Synonyme,"Gegenwörter","Übersetzung",pr
 18429,129,Extrablatt,Substantiv,De-Extrablatt.ogg,NYI,NYI,"",https://commons.wikimedia.org/wiki/Special:FilePath/De-Extrablatt.ogg
 18430,129,Minenfeld,Substantiv,"",NYI,NYI,minefield,""
 18432,129,Rechtfertigung,Substantiv,De-Rechtfertigung.ogg,NYI,NYI,justification,https://commons.wikimedia.org/wiki/Special:FilePath/De-Rechtfertigung.ogg
-18433,129,IGeL,"Abkürzung","",NYI,NYI,"",""
+18433,129,Igel,Substantiv,De-Igel.ogg,NYI,NYI,hedgehog,https://commons.wikimedia.org/wiki/Special:FilePath/De-Igel.ogg
 18434,129,Jazzmusik,Substantiv,"",NYI,NYI,"",""
 18435,129,"Küsten","Deklinierte Form","De-Küsten.ogg",NYI,NYI,"","https://commons.wikimedia.org/wiki/Special:FilePath/De-Küsten.ogg"
 18437,129,Rasierklinge,Substantiv,De-Rasierklinge.ogg,NYI,NYI,"razor blade",https://commons.wikimedia.org/wiki/Special:FilePath/De-Rasierklinge.ogg

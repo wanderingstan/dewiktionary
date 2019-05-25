@@ -108,8 +108,8 @@ for entry in wiktionary.read_entries(args.dump):
     # print(entry.pronunciations())
     # print(entry.beispiele())
 
-    if entry.pos == 'Nachname':
-        # We don't care about last names for now
+    if entry.pos == 'Nachname' or entry.pos == 'Vorname':
+        # We don't care about names for now
         continue
     if entry.title.isupper():
         # We don't care about acronymns for now

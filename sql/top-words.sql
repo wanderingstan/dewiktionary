@@ -22,6 +22,7 @@ WHERE
         -- other forms
 		ORDER BY
 			CASE
+			   WHEN w2.Wortart="Abkürzung" THEN 3
 			   WHEN w2.Wortart="Substantiv" THEN 2
 			   ELSE 1
 			 END,
