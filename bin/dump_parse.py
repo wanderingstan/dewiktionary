@@ -109,7 +109,13 @@ for entry in wiktionary.read_entries(args.dump):
     # print(entry.beispiele())
 
     if entry.pos == 'Nachname':
-        # We don't care about last names for
+        # We don't care about last names for now
+        continue
+    if entry.title.isupper():
+        # We don't care about acronymns for now
+        continue
+    if len(entry.title)==1:
+        # We don't care about 1-letter words for now
         continue
 
     #

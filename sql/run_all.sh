@@ -5,6 +5,9 @@ sqlite3 $1 <<EOF
 .mode csv
 .header on
 
+.output ./csv/top-words.csv
+.read ./sql/top-words.sql
+
 .output ./csv/top-nouns-detailed.csv
 .read ./sql/top-nouns-detailed.sql
 
