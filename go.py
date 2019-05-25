@@ -20,3 +20,9 @@ subprocess.run(
 # Populate database
 # subprocess.run(
 #     ["python", "./bin/dump_parse.py", "--force", "--dump", "dumps/dewiktionary-latest-pages-articles.xml", "--db", db_file])
+
+
+# Create csvs for export
+subprocess.run(
+    ["bash", "sql/run_all.sh", db_file])
+
