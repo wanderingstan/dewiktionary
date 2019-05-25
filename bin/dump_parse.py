@@ -6,22 +6,12 @@ import wiktionary
 
 parser = argparse.ArgumentParser(description='Create database based on wiktionary dump.')
 parser.add_argument('--dump',
-                    default='dumps/dewiktionary-latest-pages-articles_100000.xml',
                     help='Wiktionary dump file')
 parser.add_argument('--db',
-                    default='db/deutsch.sqlite',
+                    default='deutsch.sqlite',
                     help='Sqlite database file')
 parser.add_argument('--force', action='store_true', help='Force creation of new tables, even when they already exist.')
 args = parser.parse_args()
-
-
-# Get dump files at : https://dumps.wikimedia.org/dewiktionary/latest/
-# args.dump = 'dumps/dewiktionary-latest-pages-articles_100000.xml'
-# args.dump = 'dumps/dewiktionary-latest-pages-articles.xml'
-# args.dump = 'dumps/test.xml'
-
-# Do we force new tables to be made/
-args.force = True
 
 # Fields that we will reocrd from nouns
 german_noun_fields = [
@@ -76,7 +66,6 @@ german_word_fields = [
     'Synonyme',
     'Gegenwörter',
     'Übersetzung',
-
 ]
 
 # Database
@@ -101,14 +90,14 @@ c.execute('''CREATE TABLE IF NOT EXISTS nouns ("Nominativ" TEXT, {})'''.format(
     german_noun_fields_sql_declarations))
 c.execute('''CREATE INDEX nouns_index ON nouns("Nominativ")''')
 
-
 # Create word table
 if args.force:
     c.execute('''DROP TABLE IF EXISTS words''')
 german_word_fields_sql_declarations = ",".join(
     map('"{0}" TEXT'.format, german_word_fields))  # Put in SQL form, with text data type
-c.execute('''CREATE TABLE IF NOT EXISTS words ("word" TEXT PRIMARY KEY, {})'''.format(
+c.execute('''CREATE TABLE IF NOT EXISTS words ("Wort" TEXT, {})'''.format(
     german_word_fields_sql_declarations))
+c.execute('''CREATE INDEX word_index ON words("Wort")''')
 
 
 for entry in wiktionary.read_entries(args.dump):
@@ -119,10 +108,37 @@ for entry in wiktionary.read_entries(args.dump):
     # print(entry.pronunciations())
     # print(entry.beispiele())
 
+    if entry.pos == 'Nachname':
+        # We don't care about last names for
+        continue
+
+    #
+    # Words table
+    #
+    sql = '''
+        INSERT INTO words (
+            'Wort',
+            'Wortart',
+            'Hörbeispiele',
+            'Synonyme',
+            'Gegenwörter',
+            'Übersetzung')
+        VALUES (:word, :pos, :pronunciations, :synonyms, :antonyms, :translations);
+        '''
+    c.execute(sql, {
+        'word': entry.title,
+        'pos': entry.pos,
+        'pronunciations':', '.join(entry.pronunciations[:1]),
+        'synonyms': ', '.join(entry.synonyms),
+        'antonyms': ', '.join(entry.antonyms),
+        'translations': ', '.join(entry.translations)
+        })
+
+
     #
     # Verbs table
     #
-    raw_fields = entry.deutsch_verb_uebersicht()
+    raw_fields = entry.verb_uebersicht
     if raw_fields:
         default_fields = {field: '' for field in german_verb_fields}
         # unknown_fields = list(filter(lambda f: f not in default_fields, raw_fields.keys()))
@@ -143,7 +159,7 @@ for entry in wiktionary.read_entries(args.dump):
     #
     # Nouns table
     #
-    raw_fields = entry.deutsch_substantiv_uebersicht()
+    raw_fields = entry.substantiv_uebersicht
     if raw_fields:
         default_fields = {field: '' for field in german_noun_fields}
         # unknown_fields = list(filter(lambda f: f not in default_fields, raw_fields.keys()))

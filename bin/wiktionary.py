@@ -13,7 +13,8 @@ def read_entries(dump_file):
     for index, line in enumerate(f):
         if page_title is None:
             # m = re.match("    <title>(.*)</title>", line)
-            m = re.search("== (.*?) \(\{\{Sprache\|Deutsch\}\}\) ==", line)
+            m = re.search(
+                "== ([a-zA-Z0-9äöüÄÖÜß \-]+?) \(\{\{Sprache\|Deutsch\}\}\) ==", line)
 
             if m:
                 # Start of entry
@@ -37,14 +38,19 @@ def read_entries(dump_file):
                 continue
 
             # Test for new entry
-            m2 = re.search("\{\{Wortart\|(.+?)\|(.+?)\}\}", line)
+            m2 = re.findall("{{Wortart\|(.+?)\|(.+?)}}", line)
             if m2:
                 # Finish any existing entry
                 if entry_pos:
                     yield WikEntry(page_title, entry_text, entry_pos)
 
+                # Some words have multiple categories, we take the final one
+                # E.g. Substantiv and Nachname
+                # [('Substantiv', 'Deutsch'), ('Nachname', 'Deutsch')]
+                entrymatch = m2[-1]
+
                 # Skip non-german entries
-                language = m2.group(2) # zB Deutsche, Englisch
+                language = entrymatch[1]  # zB Deutsche, Englisch
                 if language!='Deutsch':
                     entry_pos = None
                     # print ("Skipping non german: {}".format(language))
@@ -52,7 +58,7 @@ def read_entries(dump_file):
 
                 # Begin new entry
                 entry_text = line
-                entry_pos = m2.group(1) # zB Adverb, Substantiv
+                entry_pos = entrymatch[0]  # zB Adverb, Substantiv
 
             if entry_pos is None:
                 # We're on a page, but in an entry for another language or something.
@@ -70,36 +76,52 @@ class WikEntry:
         self.title = title
         self.text = text
         self.pos = pos
-        self.verb_uebersicht = self.deutsch_verb_uebersicht()
-        self.substantiv_uebersicht = self.deutsch_substantiv_uebersicht()
-        self.translations = self.translations()
-
+        self.pronunciations = list(self.get_pronunciations())
+        self.translations = self.get_translations()
+        self.synonyms = self.get_synonyms()
+        self.antonyms = self.get_antonyms()
+        self.verb_uebersicht = self.get_deutsch_verb_uebersicht()
+        self.substantiv_uebersicht = self.get_deutsch_substantiv_uebersicht()
 
     def __str__(self):
         return self.title
 
+    def uniq(self, iterator):
+        """ Helper function to remove duplicates from a list, but preverving order """
+        prev = None
+        for item in iterator:
+            if item != prev:
+                prev = item
+                yield item
 
-    def pronunciations(self, language='en'):
+    def get_pronunciations(self, language='en'):
         """ Get audio files """
         try:
             audio_line = re.search("\{\{Hörbeispiele\}\}.*", self.text).group()
         except AttributeError:
             return []
-        return re.findall("\{\{Audio\|(.+?)(?:\||\}\})", audio_line)
+        return self.uniq(re.findall("\{\{Audio\|(.+?)(?:\||\}\})", audio_line))
 
 
-    def translations(self, language='en'):
-        return re.findall("\{\{Ü\|%s\|(.+?)\}\}" % language, self.text)
+    def get_translations(self, language='en'):
+        return self.uniq(re.findall("\{\{Ü\|%s\|(.+?)\}\}" % language, self.text))
 
+    def get_synonyms(self):
+        # TOO
+        return self.uniq(['NYI'])
 
-    def beispiele(self):
+    def get_antonyms(self):
+        # TOO
+        return self.uniq(['NYI'])
+
+    def get_beispiele(self):
         """ Get example sentences """
         try:
             section = re.search("\{\{Beispiele\}\}.*?(?:\n==|\n\{\{|\n\n)", self.text,
                        re.MULTILINE | re.DOTALL).group()
         except AttributeError:
             return []
-        return re.findall("\[\d+] ?(.*?)(?:&lt;ref|\n)", section)
+        return self.uniq(re.findall("\[\d+] ?(.*?)(?:&lt;ref|\n)", section))
 
 
     def get_template_fields(self, template_name):
@@ -117,7 +139,7 @@ class WikEntry:
             return None
 
 
-    def deutsch_verb_uebersicht(self):
+    def get_deutsch_verb_uebersicht(self):
         fields = self.get_template_fields('Deutsch Verb Übersicht')
         if fields is None:
             return None
@@ -127,7 +149,7 @@ class WikEntry:
         return fields
 
 
-    def deutsch_substantiv_uebersicht(self):
+    def get_deutsch_substantiv_uebersicht(self):
         fields = self.get_template_fields('Deutsch Substantiv Übersicht')
         if fields is None:
             return None
