@@ -1,4 +1,4 @@
-# German Wiktionary Extraction to SQL and CSV
+# German Wiktionary Extraction to Sqlite and CSV
 
 Generate useful csv files and a sqlite database from German Wiktionary.
 
