@@ -6,6 +6,8 @@ Python3 with no dependencies.
 
 Most recent results are in `csv` directory.
 
+Top verbs: https://github.com/wanderingstan/dewiktionary/blob/master/csv/top-verbs.csv
+
 ## Running it yourself
 
 ```
