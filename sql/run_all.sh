@@ -15,5 +15,3 @@ sqlite3 $1 <<EOF
 .read ./sql/top-verbs.sql
 
 EOF
-
-echo "Created CSV files."

@@ -47,7 +47,7 @@ def read_entries(dump_file):
                 language = m2.group(2) # zB Deutsche, Englisch
                 if language!='Deutsch':
                     entry_pos = None
-                    print ("Skipping non german: {}".format(language))
+                    # print ("Skipping non german: {}".format(language))
                     continue
 
                 # Begin new entry

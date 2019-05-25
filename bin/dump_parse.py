@@ -1,7 +1,6 @@
 # Get word info from dump of wiktionary
 import argparse
 import sqlite3
-
 import wiktionary
 
 
@@ -114,7 +113,7 @@ c.execute('''CREATE TABLE IF NOT EXISTS words ("word" TEXT PRIMARY KEY, {})'''.f
 
 for entry in wiktionary.read_entries(args.dump):
 
-    print(entry.title)
+    print("\033[K\r{}".format(entry.title), end='', flush=True)
     # print(entry.pos)
     # print(entry.translations())
     # print(entry.pronunciations())
@@ -165,3 +164,5 @@ for entry in wiktionary.read_entries(args.dump):
 # Save (commit) the changes
 conn.commit()
 conn.close()
+
+print("")

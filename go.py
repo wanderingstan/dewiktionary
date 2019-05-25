@@ -14,14 +14,18 @@ if not exists:
         ["bzip2", "-d", "./dumps/dewiktionary-latest-pages-articles.xml.bz2"])
 
 # Directly import our top words
+print("Populating db with top words...")
 subprocess.run(
     ["bash", "./top/create_top_table.sh", db_file])
 
 # Populate database
+print("Parsing dump into database... (May take several minutes)")
 subprocess.run(
     ["python", "./bin/dump_parse.py", "--force", "--dump", "dumps/dewiktionary-latest-pages-articles.xml", "--db", db_file])
 
 # Create csvs for export
+print("Exporting CSV files...")
 subprocess.run(
     ["bash", "sql/run_all.sh", db_file])
 
+print("Complete!")
