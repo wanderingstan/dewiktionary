@@ -18,5 +18,5 @@ SELECT
   verbs."Hilfsverb"
 FROM
   top JOIN verbs ON verbs.Infinitiv=top.word  COLLATE NOCASE
-ORDER BY rank ASC
+ORDER BY rank ASC, verbs.ROWID
 ;
