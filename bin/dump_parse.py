@@ -13,6 +13,10 @@ parser.add_argument('--db',
 parser.add_argument('--force', action='store_true', help='Force creation of new tables, even when they already exist.')
 args = parser.parse_args()
 
+if args.dump is None:
+    print("No dump file specified.")
+    exit(0)
+
 # Fields that we will reocrd from nouns
 german_noun_fields = [
     'Genus',
@@ -103,10 +107,6 @@ c.execute('''CREATE INDEX word_index ON words("Wort")''')
 for entry in wiktionary.read_entries(args.dump):
 
     print("\033[K\r{}".format(entry.title), end='', flush=True)
-    # print(entry.pos)
-    # print(entry.translations())
-    # print(entry.pronunciations())
-    # print(entry.beispiele())
 
     if entry.pos == 'Nachname' or entry.pos == 'Vorname':
         # We don't care about names for now

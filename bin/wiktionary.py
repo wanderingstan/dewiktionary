@@ -94,6 +94,13 @@ class WikEntry:
                 prev = item
                 yield item
 
+    def strip_wikilinks(self, text):
+        """
+        Helper function to get rid of [[ ]] links in text
+        eg 'blah [[a|b]] blah' it will return 'blah b blah'
+        """
+        return re.sub(r"\[\[(?:[^|\]]+\|)?([^\]]+)?\]\]", r"\1", text)
+
     def get_pronunciations(self, language='en'):
         """ Get audio files """
         try:
@@ -104,18 +111,28 @@ class WikEntry:
 
 
     def get_translations(self, language='en'):
-        return self.uniq(re.findall("\{\{Ü\|%s\|(.+?)\}\}" % language, self.text))
+        return map(self.strip_wikilinks, self.uniq(re.findall("\{\{Ü\|%s\|(.+?)\}\}" % language, self.text)))
 
     def get_synonyms(self):
-        # TOO
-        return self.uniq(['NYI'])
+        """ Get synonyms/Synonyme """
+        try:
+            section = re.search("{{Synonyme}}.*?(?:\n==|\n{{|\n\n)", self.text,
+                                re.MULTILINE | re.DOTALL).group()
+        except AttributeError:
+            return []
+        return map(self.strip_wikilinks, self.uniq(re.findall(":\[\d+] ?(.*)", section)))
 
     def get_antonyms(self):
-        # TOO
-        return self.uniq(['NYI'])
+        """ Get antonyms/Gegenwörter """
+        try:
+            section = re.search("{{Gegenwörter}}.*?(?:\n==|\n{{|\n\n)", self.text,
+                                re.MULTILINE | re.DOTALL).group()
+        except AttributeError:
+            return []
+        return map(self.strip_wikilinks, self.uniq(re.findall(":\[\d+] ?(.*)", section)))
 
     def get_beispiele(self):
-        """ Get example sentences """
+        """ Get example sentences /Beispiele """
         try:
             section = re.search("\{\{Beispiele\}\}.*?(?:\n==|\n\{\{|\n\n)", self.text,
                        re.MULTILINE | re.DOTALL).group()
