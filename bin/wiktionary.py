@@ -14,7 +14,7 @@ def read_entries(dump_file):
         if page_title is None:
             # m = re.match("    <title>(.*)</title>", line)
             m = re.search(
-                "== ([a-zA-Z0-9äöüÄÖÜß \-]+?) \(\{\{Sprache\|Deutsch\}\}\) ==", line)
+                "== ([a-zA-Z0-9äöüÄÖÜß \-]+?) \({{Sprache\|Deutsch}}\) ==", line)
 
             if m:
                 # Start of entry
@@ -80,6 +80,7 @@ class WikEntry:
         self.translations = self.get_translations()
         self.synonyms = self.get_synonyms()
         self.antonyms = self.get_antonyms()
+        self.examples = self.get_examples()
         self.verb_uebersicht = self.get_deutsch_verb_uebersicht()
         self.substantiv_uebersicht = self.get_deutsch_substantiv_uebersicht()
 
@@ -104,14 +105,14 @@ class WikEntry:
     def get_pronunciations(self, language='en'):
         """ Get audio files """
         try:
-            audio_line = re.search("\{\{Hörbeispiele\}\}.*", self.text).group()
+            audio_line = re.search("{{Hörbeispiele}}.*", self.text).group()
         except AttributeError:
             return []
-        return self.uniq(re.findall("\{\{Audio\|(.+?)(?:\||\}\})", audio_line))
+        return self.uniq(re.findall("{{Audio\|(.+?)(?:\||}})", audio_line))
 
 
     def get_translations(self, language='en'):
-        return map(self.strip_wikilinks, self.uniq(re.findall("\{\{Ü\|%s\|(.+?)\}\}" % language, self.text)))
+        return map(self.strip_wikilinks, self.uniq(re.findall("{{Ü\|%s\|(.+?)}}" % language, self.text)))
 
     def get_synonyms(self):
         """ Get synonyms/Synonyme """
@@ -131,18 +132,18 @@ class WikEntry:
             return []
         return map(self.strip_wikilinks, self.uniq(re.findall(":\[\d+] ?(.*)", section)))
 
-    def get_beispiele(self):
+    def get_examples(self):
         """ Get example sentences /Beispiele """
         try:
-            section = re.search("\{\{Beispiele\}\}.*?(?:\n==|\n\{\{|\n\n)", self.text,
+            section = re.search("{{Beispiele}}.*?(?:\n==|\n{{|\n\n)", self.text,
                        re.MULTILINE | re.DOTALL).group()
         except AttributeError:
             return []
-        return self.uniq(re.findall("\[\d+] ?(.*?)(?:&lt;ref|\n)", section))
+        return map(self.strip_wikilinks, re.findall("\[\d+] ?(.*?)(?:&lt;ref|\n)", section))
 
 
     def get_template_fields(self, template_name):
-        r = re.compile("\{\{%s(.*?)\}\}" % template_name,
+        r = re.compile("{{%s(.*?)}}" % template_name,
                        re.MULTILINE | re.DOTALL)
         m = r.search(self.text)
         if m:
@@ -161,8 +162,8 @@ class WikEntry:
         if fields is None:
             return None
         # Check for irregular and transitive
-        fields['Unreg'] = 'X' if re.search("\{\{unreg.\}\}", self.text) else ''
-        fields['Trans'] = 'X' if re.search("\{\{trans.\}\}", self.text) else ''
+        fields['Unreg'] = 'X' if re.search("{{unreg.}}", self.text) else ''
+        fields['Trans'] = 'X' if re.search("{{trans.}}", self.text) else ''
         return fields
 
 

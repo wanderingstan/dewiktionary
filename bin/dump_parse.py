@@ -103,6 +103,13 @@ c.execute('''CREATE TABLE IF NOT EXISTS words ("Wort" TEXT COLLATE NOCASE, {})''
     german_word_fields_sql_declarations))
 c.execute('''CREATE INDEX word_index ON words("Wort")''')
 
+# Create example table
+if args.force:
+    c.execute('''DROP TABLE IF EXISTS examples''')
+c.execute('''CREATE TABLE IF NOT EXISTS examples ("words_rowid" INTEGER, "Wort" TEXT, "Beispiel")''')
+c.execute('''CREATE INDEX examples_word_index ON examples("Wort")''')
+c.execute('''CREATE INDEX examples_rowid_index ON examples("words_rowid")''')
+
 
 for entry in wiktionary.read_entries(args.dump):
 
@@ -139,7 +146,21 @@ for entry in wiktionary.read_entries(args.dump):
         'antonyms': ', '.join(entry.antonyms),
         'translations': ', '.join(entry.translations)
         })
+    words_rowid = c.lastrowid # ROWID of word we just inserted
 
+    #
+    # Examples table
+    #
+    for example in entry.examples:
+        sql = '''
+            INSERT INTO examples (words_rowid, Wort, Beispiel)
+            VALUES (:words_rowid, :word, :example)
+            '''
+        c.execute(sql, {
+            'words_rowid': words_rowid,
+            'word': entry.title,
+            'example' : example
+        })
 
     #
     # Verbs table

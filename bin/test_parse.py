@@ -13,10 +13,10 @@ for entry in wiktionary.read_entries(args.dump):
 
     print(entry.title)
     # print(entry.pos)
-    # print(entry.translations())
-    # print(entry.pronunciations())
-    # print(entry.beispiele())
-    print(list(entry.synonyms))
-    print(list(entry.antonyms))
+    # print(entry.translations
+    # print(entry.pronunciations
+    print(list(entry.examples))
+    # print(list(entry.synonyms))
+    # print(list(entry.antonyms))
 
 
