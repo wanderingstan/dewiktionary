@@ -1,5 +1,5 @@
 import re
-
+import html
 
 def read_entries(dump_file):
     """
@@ -97,10 +97,17 @@ class WikEntry:
 
     def strip_wikilinks(self, text):
         """
-        Helper function to get rid of [[ ]] links in text
-        eg 'blah [[a|b]] blah' it will return 'blah b blah'
+        Helper function to get rid of wiki markup
         """
-        return re.sub(r"\[\[(?:[^|\]]+\|)?([^\]]+)?\]\]", r"\1", text)
+        # HTML Entities: &pound;682 --> £682
+        text0 = html.unescape(text)
+        # 'blah [[a|b]] blah' --> 'blah b blah'
+        text2 = re.sub(r"\[\[(?:[^|\]]+\|)?([^\]]+)?\]\]", r"\1", text0)
+        # '{{L|w:Peter Weiss|Peter Weiss}}' --> 'Peter Weiss'
+        text3 = re.sub(r"{{L\|(?:[^|]+\|)?([^\]]+)?}}", r"\1", text2)
+        # '{{Beispiele fehlen}}' --> ''
+        text4 = text3.replace("{{Beispiele fehlen}}", "")
+        return text4
 
     def get_pronunciations(self, language='en'):
         """ Get audio files """
@@ -139,7 +146,7 @@ class WikEntry:
                        re.MULTILINE | re.DOTALL).group()
         except AttributeError:
             return []
-        return map(self.strip_wikilinks, re.findall("\[\d+] ?(.*?)(?:&lt;ref|\n)", section))
+        return map(self.strip_wikilinks, re.findall(":\[\d+\] ?(.*?)(?:&lt;ref|\n)", section))
 
 
     def get_template_fields(self, template_name):

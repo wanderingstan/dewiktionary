@@ -152,6 +152,8 @@ for entry in wiktionary.read_entries(args.dump):
     # Examples table
     #
     for example in entry.examples:
+        if example.strip()=='':
+            continue
         sql = '''
             INSERT INTO examples (words_rowid, Wort, Beispiel)
             VALUES (:words_rowid, :word, :example)

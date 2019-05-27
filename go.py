@@ -24,11 +24,11 @@ exists = os.path.isfile(dump_file)
 if not exists:
     try:
         print("Downloading wiktionary entries... (May take several minutes)")
-        subprocess.check_output(
-            ["wget", "-O", "./dumps/dewiktionary-latest-pages-articles.xml.bz2", "https://dumps.wikimedia.org/dewiktionary/latest/dewiktionary-latest-pages-articles.xml.bz2"])
+        subprocess.run(
+            ["wget", "-O", "./dumps/dewiktionary-latest-pages-articles.xml.bz2", "https://dumps.wikimedia.org/dewiktionary/latest/dewiktionary-latest-pages-articles.xml.bz2"], check=True)
         print("Decompressing wiktionary entries...(May take several minutes)")
-        subprocess.check_output(
-            ["bzip2", "-d", "./dumps/dewiktionary-latest-pages-articles.xml.bz2"])
+        subprocess.run(
+            ["bzip2", "-d", "./dumps/dewiktionary-latest-pages-articles.xml.bz2"], check=True)
     except subprocess.CalledProcessError as e:
         print("Problem downloading wiktionary dump")
         exit(0)
@@ -36,8 +36,8 @@ if not exists:
 # Directly import our top words
 print("Populating db with top words...")
 try:
-    subprocess.check_output(
-        ["bash", "./top/create_top_table.sh", db_file])
+    subprocess.run(
+        ["bash", "./top/create_top_table.sh", db_file], check=True)
 except subprocess.CalledProcessError as e:
     print("Problem Populating db with top words")
     exit(0)
@@ -45,8 +45,8 @@ except subprocess.CalledProcessError as e:
 # Populate database
 print("Parsing dump into database... (May take several minutes)")
 try:
-    subprocess.check_output(
-        ["python", "./bin/dump_parse.py", "--force", "--dump", dump_file, "--db", db_file])
+    subprocess.run(
+        ["python", "./bin/dump_parse.py", "--force", "--dump", dump_file, "--db", db_file], check=True)
 except subprocess.CalledProcessError as e:
     print("Problem parsing dump into database")
     exit(0)
@@ -54,8 +54,8 @@ except subprocess.CalledProcessError as e:
 # Create csvs for export
 print("Exporting CSV files...")
 try:
-    subprocess.check_output(
-        ["bash", "sql/run_all.sh", db_file])
+    subprocess.run(
+        ["bash", "sql/run_all.sh", db_file], check=True)
 except subprocess.CalledProcessError as e:
     print("Problem Exporting CSV files")
     exit(0)
